@@ -1,0 +1,6021 @@
+{
+  "schema_version": 1,
+  "source_read_at": "2026-10-19T23:53:53.130Z",
+  "data_as_of": {
+    "latest_event_change_at": "2026-10-16T07:36:14.891Z",
+    "latest_evidence_check_at": "2026-10-16T07:35:00.000Z"
+  },
+  "original_source_refresh": {
+    "status": "unverified",
+    "last_attempt_at": null,
+    "last_success_at": null,
+    "coverage": {
+      "expected_companies": 152,
+      "checked_companies": null,
+      "failed_companies": null
+    }
+  },
+  "counts": {
+    "companies": 152,
+    "events": 184
+  },
+  "companies": [
+    {
+      "name": "ASML",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-14",
+            "date_end": "2026-10-14",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TSMC",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-15",
+            "date_end": "2026-10-15",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "셀트리온",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-12",
+            "date_end": "2026-10-12",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://www.celltrion.com/ko-kr/company/media-center/press-release/4941",
+              "verification": "verified",
+              "checked_at": "2026-10-16T05:43:57.000Z",
+              "verified_at": "2026-10-16T05:43:57.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "유니드",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-21",
+            "date_end": "2026-10-21",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            },
+            {
+              "source_type": "dart",
+              "label": "DART 공시",
+              "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261007800069",
+              "verification": "verified",
+              "checked_at": "2026-10-16T05:43:57.000Z",
+              "verified_at": "2026-10-16T05:43:57.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "한화솔루션",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "superseded",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-21",
+            "date_end": "2026-10-21",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        },
+        {
+          "event_type": "conference_call",
+          "lifecycle": "active",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-29",
+            "date_end": "2026-10-29",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "manual",
+              "label": "수동 확인",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:43:57.000Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OCI홀딩스",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "superseded",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-21",
+            "date_end": "2026-10-21",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        },
+        {
+          "event_type": "conference_call",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "datetime",
+            "date_start": "2026-10-29",
+            "date_end": "2026-10-29",
+            "local_datetime": "2026-10-29T15:30:00",
+            "time_zone": "Asia/Seoul",
+            "utc_datetime": "2026-10-29T06:30:00.000Z",
+            "kst_datetime": "2026-10-29T06:30:00.000Z",
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://www.oci-holdings.co.kr/ir/activity/223",
+              "verification": "verified",
+              "checked_at": "2026-10-16T05:43:57.000Z",
+              "verified_at": "2026-10-16T05:43:57.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LS ELECTRIC",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-21",
+            "date_end": "2026-10-21",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            },
+            {
+              "source_type": "manual",
+              "label": "수동 확인",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:43:57.000Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "삼성바이오로직스",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-21",
+            "date_end": "2026-10-21",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://samsungbiologics.com/kr/ir/resource/events",
+              "verification": "verified",
+              "checked_at": "2026-10-16T05:43:57.000Z",
+              "verified_at": "2026-10-16T05:43:57.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "테슬라",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-22",
+            "date_end": "2026-10-22",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "kst"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://ir.tesla.com/press-release/tesla-third-quarter-2026-production-deliveries-and-deployments",
+              "verification": "verified",
+              "checked_at": "2026-10-16T05:43:57.000Z",
+              "verified_at": "2026-10-16T05:43:57.000Z"
+            }
+          ]
+        },
+        {
+          "event_type": "conference_call",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "datetime",
+            "date_start": "2026-10-21",
+            "date_end": "2026-10-21",
+            "local_datetime": "2026-10-21T16:30:00",
+            "time_zone": "America/Chicago",
+            "utc_datetime": "2026-10-21T21:30:00.000Z",
+            "kst_datetime": "2026-10-21T21:30:00.000Z",
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://ir.tesla.com/press-release/tesla-third-quarter-2026-production-deliveries-and-deployments",
+              "verification": "verified",
+              "checked_at": "2026-10-16T05:43:57.000Z",
+              "verified_at": "2026-10-16T05:43:57.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Texas Instruments",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "superseded",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-22",
+            "date_end": "2026-10-22",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        },
+        {
+          "event_type": "conference_call",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "datetime",
+            "date_start": "2026-10-21",
+            "date_end": "2026-10-21",
+            "local_datetime": "2026-10-21T15:30:00",
+            "time_zone": "America/Chicago",
+            "utc_datetime": "2026-10-21T20:30:00.000Z",
+            "kst_datetime": "2026-10-21T20:30:00.000Z",
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": null,
+              "verification": "verified",
+              "checked_at": "2026-10-16T05:43:57.000Z",
+              "verified_at": "2026-10-16T05:43:57.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lam Research",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "superseded",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-22",
+            "date_end": "2026-10-22",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        },
+        {
+          "event_type": "conference_call",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "datetime",
+            "date_start": "2026-10-21",
+            "date_end": "2026-10-21",
+            "local_datetime": "2026-10-21T14:00:00",
+            "time_zone": "America/Los_Angeles",
+            "utc_datetime": "2026-10-21T21:00:00.000Z",
+            "kst_datetime": "2026-10-21T21:00:00.000Z",
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": null,
+              "verification": "verified",
+              "checked_at": "2026-10-16T05:43:57.000Z",
+              "verified_at": "2026-10-16T05:43:57.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SGC에너지",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "datetime",
+            "date_start": "2026-10-22",
+            "date_end": "2026-10-22",
+            "local_datetime": "2026-10-22T15:50:00",
+            "time_zone": "Asia/Seoul",
+            "utc_datetime": "2026-10-22T06:50:00.000Z",
+            "kst_datetime": "2026-10-22T06:50:00.000Z",
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            },
+            {
+              "source_type": "dart",
+              "label": "DART 공시",
+              "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261015800423",
+              "verification": "verified",
+              "checked_at": "2026-10-16T05:43:57.000Z",
+              "verified_at": "2026-10-16T05:43:57.000Z"
+            }
+          ]
+        },
+        {
+          "event_type": "conference_call",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "datetime",
+            "date_start": "2026-10-22",
+            "date_end": "2026-10-22",
+            "local_datetime": "2026-10-22T16:00:00",
+            "time_zone": "Asia/Seoul",
+            "utc_datetime": "2026-10-22T07:00:00.000Z",
+            "kst_datetime": "2026-10-22T07:00:00.000Z",
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "dart",
+              "label": "DART 공시",
+              "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261015800423",
+              "verification": "verified",
+              "checked_at": "2026-10-16T05:43:57.000Z",
+              "verified_at": "2026-10-16T05:43:57.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "삼성바이오에피스",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "conflict",
+          "schedule": {
+            "precision": "conflict",
+            "date_start": null,
+            "date_end": null,
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            },
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "아모레퍼시픽",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "estimated",
+          "schedule": {
+            "precision": "week",
+            "date_start": "2026-10-25",
+            "date_end": "2026-10-31",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LG생활건강",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "conflict",
+          "schedule": {
+            "precision": "conflict",
+            "date_start": null,
+            "date_end": null,
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            },
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "유한양행",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "estimated",
+          "schedule": {
+            "precision": "week",
+            "date_start": "2026-10-25",
+            "date_end": "2026-10-31",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Amkor",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-27",
+            "date_end": "2026-10-27",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "kst"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://ir.amkor.com/news-releases/news-release-details/amkor-technology-announce-third-quarter-2026-financial-results",
+              "verification": "verified",
+              "checked_at": "2026-10-16T05:50:26.000Z",
+              "verified_at": "2026-10-16T05:50:26.000Z"
+            }
+          ]
+        },
+        {
+          "event_type": "conference_call",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "datetime",
+            "date_start": "2026-10-26",
+            "date_end": "2026-10-26",
+            "local_datetime": "2026-10-26T17:00:00",
+            "time_zone": "America/New_York",
+            "utc_datetime": "2026-10-26T21:00:00.000Z",
+            "kst_datetime": "2026-10-26T21:00:00.000Z",
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://ir.amkor.com/news-releases/news-release-details/amkor-technology-announce-third-quarter-2026-financial-results",
+              "verification": "verified",
+              "checked_at": "2026-10-16T05:50:26.000Z",
+              "verified_at": "2026-10-16T05:50:26.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rambus",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "superseded",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-26",
+            "date_end": "2026-10-26",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        },
+        {
+          "event_type": "conference_call",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "datetime",
+            "date_start": "2026-10-26",
+            "date_end": "2026-10-26",
+            "local_datetime": "2026-10-26T14:00:00",
+            "time_zone": "America/Los_Angeles",
+            "utc_datetime": "2026-10-26T21:00:00.000Z",
+            "kst_datetime": "2026-10-26T21:00:00.000Z",
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://investor.rambus.com/press-releases/press-release-details/2026/Rambus-to-Announce-Third-Quarter-Fiscal-Year-2026-Results/default.aspx",
+              "verification": "verified",
+              "checked_at": "2026-10-16T05:50:26.000Z",
+              "verified_at": "2026-10-16T05:50:26.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HD현대마린솔루션",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-26",
+            "date_end": "2026-10-26",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SK하이닉스",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "superseded",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-27",
+            "date_end": "2026-10-27",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        },
+        {
+          "event_type": "conference_call",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "datetime",
+            "date_start": "2026-10-28",
+            "date_end": "2026-10-28",
+            "local_datetime": "2026-10-28T09:00:00",
+            "time_zone": "Asia/Seoul",
+            "utc_datetime": "2026-10-28T00:00:00.000Z",
+            "kst_datetime": "2026-10-28T00:00:00.000Z",
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526420934/d413172d6k.htm",
+              "verification": "verified",
+              "checked_at": "2026-10-16T05:56:39.004Z",
+              "verified_at": "2026-10-16T05:56:39.004Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "NXP Semiconductor",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-28",
+            "date_end": "2026-10-28",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "kst"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://investors.nxp.com/node/24921/pdf",
+              "verification": "verified",
+              "checked_at": "2026-10-16T05:50:26.000Z",
+              "verified_at": "2026-10-16T05:50:26.000Z"
+            }
+          ]
+        },
+        {
+          "event_type": "conference_call",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "datetime",
+            "date_start": "2026-10-27",
+            "date_end": "2026-10-27",
+            "local_datetime": "2026-10-27T16:30:00",
+            "time_zone": "America/New_York",
+            "utc_datetime": "2026-10-27T20:30:00.000Z",
+            "kst_datetime": "2026-10-27T20:30:00.000Z",
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://investors.nxp.com/node/24921/pdf",
+              "verification": "verified",
+              "checked_at": "2026-10-16T05:50:26.000Z",
+              "verified_at": "2026-10-16T05:50:26.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HD현대일렉트릭",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-27",
+            "date_end": "2026-10-27",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "동아쏘시오홀딩스",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-27",
+            "date_end": "2026-10-27",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Teradyne",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-28",
+            "date_end": "2026-10-28",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "kst"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://investors.teradyne.com/news-events/press-releases/detail/454/teradyne-to-announce-third-quarter-2026-results",
+              "verification": "verified",
+              "checked_at": "2026-10-16T05:50:26.000Z",
+              "verified_at": "2026-10-16T05:50:26.000Z"
+            }
+          ]
+        },
+        {
+          "event_type": "conference_call",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "datetime",
+            "date_start": "2026-10-28",
+            "date_end": "2026-10-28",
+            "local_datetime": "2026-10-28T08:30:00",
+            "time_zone": "America/New_York",
+            "utc_datetime": "2026-10-28T12:30:00.000Z",
+            "kst_datetime": "2026-10-28T12:30:00.000Z",
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://investors.teradyne.com/news-events/press-releases/detail/454/teradyne-to-announce-third-quarter-2026-results",
+              "verification": "verified",
+              "checked_at": "2026-10-16T05:50:26.000Z",
+              "verified_at": "2026-10-16T05:50:26.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Advantest",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "datetime",
+            "date_start": "2026-10-28",
+            "date_end": "2026-10-28",
+            "local_datetime": "2026-10-28T15:30:00",
+            "time_zone": "Asia/Tokyo",
+            "utc_datetime": "2026-10-28T06:30:00.000Z",
+            "kst_datetime": "2026-10-28T06:30:00.000Z",
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://www.advantest.com/en/investors/ir-calendar/",
+              "verification": "verified",
+              "checked_at": "2026-10-16T05:50:26.000Z",
+              "verified_at": "2026-10-16T05:50:26.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "KLA",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-29",
+            "date_end": "2026-10-29",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "kst"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://ir.kla.com/news-events/press-releases/detail/522/kla-announces-first-quarter-fiscal-year-2027-earnings-date",
+              "verification": "verified",
+              "checked_at": "2026-10-16T05:50:26.000Z",
+              "verified_at": "2026-10-16T05:50:26.000Z"
+            }
+          ]
+        },
+        {
+          "event_type": "conference_call",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "datetime",
+            "date_start": "2026-10-28",
+            "date_end": "2026-10-28",
+            "local_datetime": "2026-10-28T14:00:00",
+            "time_zone": "America/Los_Angeles",
+            "utc_datetime": "2026-10-28T21:00:00.000Z",
+            "kst_datetime": "2026-10-28T21:00:00.000Z",
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://ir.kla.com/news-events/press-releases/detail/522/kla-announces-first-quarter-fiscal-year-2027-earnings-date",
+              "verification": "verified",
+              "checked_at": "2026-10-16T05:50:26.000Z",
+              "verified_at": "2026-10-16T05:50:26.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HD한국조선해양",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-28",
+            "date_end": "2026-10-28",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "효성중공업",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "conflict",
+          "schedule": {
+            "precision": "conflict",
+            "date_start": null,
+            "date_end": null,
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            },
+            {
+              "source_type": "manual",
+              "label": "수동 확인",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:56:39.004Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HK이노엔",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-28",
+            "date_end": "2026-10-28",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "호텔신라",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "estimated",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-28",
+            "date_end": "2026-10-28",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "삼성전자",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "superseded",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-29",
+            "date_end": "2026-10-29",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        },
+        {
+          "event_type": "conference_call",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "datetime",
+            "date_start": "2026-10-29",
+            "date_end": "2026-10-29",
+            "local_datetime": "2026-10-29T10:00:00",
+            "time_zone": "Asia/Seoul",
+            "utc_datetime": "2026-10-29T01:00:00.000Z",
+            "kst_datetime": "2026-10-29T01:00:00.000Z",
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://www.samsung.com/global/ir/ir-events-presentations/events/",
+              "verification": "verified",
+              "checked_at": "2026-10-16T05:49:12.000Z",
+              "verified_at": "2026-10-16T05:49:12.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "삼성SDI",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "superseded",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-29",
+            "date_end": "2026-10-29",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        },
+        {
+          "event_type": "conference_call",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "datetime",
+            "date_start": "2026-10-29",
+            "date_end": "2026-10-29",
+            "local_datetime": "2026-10-29T10:00:00",
+            "time_zone": "Asia/Seoul",
+            "utc_datetime": "2026-10-29T01:00:00.000Z",
+            "kst_datetime": "2026-10-29T01:00:00.000Z",
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://www.samsungsdi.co.kr/",
+              "verification": "verified",
+              "checked_at": "2026-10-16T05:53:37.000Z",
+              "verified_at": "2026-10-16T05:53:37.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SK on",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-29",
+            "date_end": "2026-10-29",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intel",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-30",
+            "date_end": "2026-10-30",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "kst"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://www.intel.com/content/www/us/en/newsroom/news/corporate/intel-reports-third-quarter-2026-financial-results.html",
+              "verification": "verified",
+              "checked_at": "2026-10-16T05:50:26.000Z",
+              "verified_at": "2026-10-16T05:50:26.000Z"
+            }
+          ]
+        },
+        {
+          "event_type": "conference_call",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "datetime",
+            "date_start": "2026-10-29",
+            "date_end": "2026-10-29",
+            "local_datetime": "2026-10-29T14:00:00",
+            "time_zone": "America/Los_Angeles",
+            "utc_datetime": "2026-10-29T21:00:00.000Z",
+            "kst_datetime": "2026-10-29T21:00:00.000Z",
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://www.intel.com/content/www/us/en/newsroom/news/corporate/intel-reports-third-quarter-2026-financial-results.html",
+              "verification": "verified",
+              "checked_at": "2026-10-16T05:50:26.000Z",
+              "verified_at": "2026-10-16T05:50:26.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "세아베스틸지주",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-29",
+            "date_end": "2026-10-29",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "삼성중공업",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-29",
+            "date_end": "2026-10-29",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "한화오션",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-27",
+            "date_end": "2026-10-27",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "kst"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            },
+            {
+              "source_type": "manual",
+              "label": "수동 확인",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:56:39.004Z",
+              "verified_at": null
+            }
+          ]
+        },
+        {
+          "event_type": "conference_call",
+          "lifecycle": "active",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-27",
+            "date_end": "2026-10-27",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "kst"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "manual",
+              "label": "수동 확인",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:56:39.004Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "대한전선",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-29",
+            "date_end": "2026-10-29",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "현대차",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "estimated",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-29",
+            "date_end": "2026-10-29",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "한온시스템",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-11-05",
+            "date_end": "2026-11-05",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "kst"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            },
+            {
+              "source_type": "manual",
+              "label": "수동 확인",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:56:39.004Z",
+              "verified_at": null
+            }
+          ]
+        },
+        {
+          "event_type": "conference_call",
+          "lifecycle": "active",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-11-05",
+            "date_end": "2026-11-05",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "kst"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "manual",
+              "label": "수동 확인",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:56:39.004Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "POSCO홀딩스",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "estimated",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-29",
+            "date_end": "2026-10-29",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SK이노베이션",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "superseded",
+          "status": "estimated",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-29",
+            "date_end": "2026-10-29",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        },
+        {
+          "event_type": "conference_call",
+          "lifecycle": "active",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-29",
+            "date_end": "2026-10-29",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "kst"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "manual",
+              "label": "수동 확인",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:56:39.004Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Entegris",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-29",
+            "date_end": "2026-10-29",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "kst"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": null,
+              "verification": "verified",
+              "checked_at": "2026-10-16T05:50:26.000Z",
+              "verified_at": "2026-10-16T05:50:26.000Z"
+            }
+          ]
+        },
+        {
+          "event_type": "conference_call",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "datetime",
+            "date_start": "2026-10-29",
+            "date_end": "2026-10-29",
+            "local_datetime": "2026-10-29T08:00:00",
+            "time_zone": "America/New_York",
+            "utc_datetime": "2026-10-29T12:00:00.000Z",
+            "kst_datetime": "2026-10-29T12:00:00.000Z",
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": null,
+              "verification": "verified",
+              "checked_at": "2026-10-16T05:50:26.000Z",
+              "verified_at": "2026-10-16T05:50:26.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Skyworks",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "estimated",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-29",
+            "date_end": "2026-10-29",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Macom",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "estimated",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-29",
+            "date_end": "2026-10-29",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Microchip",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "superseded",
+          "status": "estimated",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-29",
+            "date_end": "2026-10-29",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        },
+        {
+          "event_type": "conference_call",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "datetime",
+            "date_start": "2026-11-05",
+            "date_end": "2026-11-05",
+            "local_datetime": "2026-11-05T17:00:00",
+            "time_zone": "America/New_York",
+            "utc_datetime": "2026-11-05T22:00:00.000Z",
+            "kst_datetime": "2026-11-05T22:00:00.000Z",
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://ir.microchip.com/news-events/ir-calendar",
+              "verification": "verified",
+              "checked_at": "2026-10-16T05:50:26.000Z",
+              "verified_at": "2026-10-16T05:50:26.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "기아",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-30",
+            "date_end": "2026-10-30",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "kst"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            },
+            {
+              "source_type": "manual",
+              "label": "수동 확인",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:56:39.004Z",
+              "verified_at": null
+            }
+          ]
+        },
+        {
+          "event_type": "conference_call",
+          "lifecycle": "active",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-30",
+            "date_end": "2026-10-30",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "kst"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "manual",
+              "label": "수동 확인",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:56:39.004Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "현대모비스",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-30",
+            "date_end": "2026-10-30",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "kst"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            },
+            {
+              "source_type": "manual",
+              "label": "수동 확인",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:56:39.004Z",
+              "verified_at": null
+            }
+          ]
+        },
+        {
+          "event_type": "conference_call",
+          "lifecycle": "active",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-30",
+            "date_end": "2026-10-30",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "kst"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "manual",
+              "label": "수동 확인",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:56:39.004Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HL만도",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-30",
+            "date_end": "2026-10-30",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "포스코퓨처엠",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-30",
+            "date_end": "2026-10-30",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "현대제철",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-30",
+            "date_end": "2026-10-30",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "동국제강",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-30",
+            "date_end": "2026-10-30",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "현대위아",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "estimated",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-30",
+            "date_end": "2026-10-30",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "현대글로비스",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "estimated",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-30",
+            "date_end": "2026-10-30",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "효성티앤씨",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "estimated",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-30",
+            "date_end": "2026-10-30",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "에이피알",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "estimated",
+          "schedule": {
+            "precision": "week",
+            "date_start": "2026-11-01",
+            "date_end": "2026-11-07",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "펌텍코리아",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "estimated",
+          "schedule": {
+            "precision": "week",
+            "date_start": "2026-11-01",
+            "date_end": "2026-11-07",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GS리테일",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "estimated",
+          "schedule": {
+            "precision": "week",
+            "date_start": "2026-11-01",
+            "date_end": "2026-11-07",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BGF리테일",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "estimated",
+          "schedule": {
+            "precision": "week",
+            "date_start": "2026-11-01",
+            "date_end": "2026-11-07",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "하나투어",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "conflict",
+          "schedule": {
+            "precision": "conflict",
+            "date_start": null,
+            "date_end": null,
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            },
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GKL",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "conflict",
+          "schedule": {
+            "precision": "conflict",
+            "date_start": null,
+            "date_end": null,
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            },
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SBS",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "conflict",
+          "schedule": {
+            "precision": "conflict",
+            "date_start": null,
+            "date_end": null,
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            },
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "모두투어",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "estimated",
+          "schedule": {
+            "precision": "week",
+            "date_start": "2026-11-01",
+            "date_end": "2026-11-07",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "롯데관광개발",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "estimated",
+          "schedule": {
+            "precision": "week",
+            "date_start": "2026-11-01",
+            "date_end": "2026-11-07",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GS피앤엘",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "estimated",
+          "schedule": {
+            "precision": "week",
+            "date_start": "2026-11-01",
+            "date_end": "2026-11-07",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "서부T&D",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "estimated",
+          "schedule": {
+            "precision": "week",
+            "date_start": "2026-11-01",
+            "date_end": "2026-11-07",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SK바이오사이언스",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "estimated",
+          "schedule": {
+            "precision": "week",
+            "date_start": "2026-11-01",
+            "date_end": "2026-11-07",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "포스코인터내셔널",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-11-02",
+            "date_end": "2026-11-02",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "녹십자",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-11-02",
+            "date_end": "2026-11-02",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lattice Semiconductor",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "superseded",
+          "status": "estimated",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-11-02",
+            "date_end": "2026-11-02",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        },
+        {
+          "event_type": "conference_call",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "datetime",
+            "date_start": "2026-11-02",
+            "date_end": "2026-11-02",
+            "local_datetime": "2026-11-02T17:00:00",
+            "time_zone": "America/New_York",
+            "utc_datetime": "2026-11-02T22:00:00.000Z",
+            "kst_datetime": "2026-11-02T22:00:00.000Z",
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://ir.latticesemi.com/news-releases/news-release-details/lattice-semiconductor-schedules-third-quarter-2026-results",
+              "verification": "verified",
+              "checked_at": "2026-10-16T05:50:26.000Z",
+              "verified_at": "2026-10-16T05:50:26.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "On Semiconductor",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-11-03",
+            "date_end": "2026-11-03",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "kst"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://investor.onsemi.com/news-releases/news-release-details/onsemi-announce-third-quarter-financial-results-3",
+              "verification": "verified",
+              "checked_at": "2026-10-16T05:50:26.000Z",
+              "verified_at": "2026-10-16T05:50:26.000Z"
+            }
+          ]
+        },
+        {
+          "event_type": "conference_call",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "datetime",
+            "date_start": "2026-11-02",
+            "date_end": "2026-11-02",
+            "local_datetime": "2026-11-02T17:00:00",
+            "time_zone": "America/New_York",
+            "utc_datetime": "2026-11-02T22:00:00.000Z",
+            "kst_datetime": "2026-11-02T22:00:00.000Z",
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://investor.onsemi.com/news-releases/news-release-details/onsemi-announce-third-quarter-financial-results-3",
+              "verification": "verified",
+              "checked_at": "2026-10-16T05:50:26.000Z",
+              "verified_at": "2026-10-16T05:50:26.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Astera Labs",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-11-04",
+            "date_end": "2026-11-04",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "kst"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://ir.asteralabs.com/node/9316/pdf",
+              "verification": "verified",
+              "checked_at": "2026-10-16T05:50:26.000Z",
+              "verified_at": "2026-10-16T05:50:26.000Z"
+            }
+          ]
+        },
+        {
+          "event_type": "conference_call",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "datetime",
+            "date_start": "2026-11-03",
+            "date_end": "2026-11-03",
+            "local_datetime": "2026-11-03T16:30:00",
+            "time_zone": "America/New_York",
+            "utc_datetime": "2026-11-03T21:30:00.000Z",
+            "kst_datetime": "2026-11-03T21:30:00.000Z",
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://ir.asteralabs.com/node/9316/pdf",
+              "verification": "verified",
+              "checked_at": "2026-10-16T05:50:26.000Z",
+              "verified_at": "2026-10-16T05:50:26.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AMD",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-11-04",
+            "date_end": "2026-11-04",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "kst"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results",
+              "verification": "verified",
+              "checked_at": "2026-10-16T05:50:26.000Z",
+              "verified_at": "2026-10-16T05:50:26.000Z"
+            }
+          ]
+        },
+        {
+          "event_type": "conference_call",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "datetime",
+            "date_start": "2026-11-03",
+            "date_end": "2026-11-03",
+            "local_datetime": "2026-11-03T17:00:00",
+            "time_zone": "America/New_York",
+            "utc_datetime": "2026-11-03T22:00:00.000Z",
+            "kst_datetime": "2026-11-03T22:00:00.000Z",
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results",
+              "verification": "verified",
+              "checked_at": "2026-10-16T05:50:26.000Z",
+              "verified_at": "2026-10-16T05:50:26.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LG에너지솔루션",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "superseded",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-11-03",
+            "date_end": "2026-11-03",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        },
+        {
+          "event_type": "conference_call",
+          "lifecycle": "active",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-11-03",
+            "date_end": "2026-11-03",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "kst"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "manual",
+              "label": "수동 확인",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:48:00.000Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "하이브",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-11-03",
+            "date_end": "2026-11-03",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "대웅제약",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-11-03",
+            "date_end": "2026-11-03",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "KG모빌리티",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "estimated",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-11-03",
+            "date_end": "2026-11-03",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "금호타이어",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "estimated",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-11-03",
+            "date_end": "2026-11-03",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "넥센타이어",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "conflict",
+          "schedule": {
+            "precision": "conflict",
+            "date_start": null,
+            "date_end": null,
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            },
+            {
+              "source_type": "manual",
+              "label": "수동 확인",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:48:00.000Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ARM",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-11-05",
+            "date_end": "2026-11-05",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "kst"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": null,
+              "verification": "verified",
+              "checked_at": "2026-10-16T05:50:26.000Z",
+              "verified_at": "2026-10-16T05:50:26.000Z"
+            }
+          ]
+        },
+        {
+          "event_type": "conference_call",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "datetime",
+            "date_start": "2026-11-04",
+            "date_end": "2026-11-04",
+            "local_datetime": "2026-11-04T14:00:00",
+            "time_zone": "America/Los_Angeles",
+            "utc_datetime": "2026-11-04T22:00:00.000Z",
+            "kst_datetime": "2026-11-04T22:00:00.000Z",
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": null,
+              "verification": "verified",
+              "checked_at": "2026-10-16T05:50:26.000Z",
+              "verified_at": "2026-10-16T05:50:26.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "에스엠",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-11-04",
+            "date_end": "2026-11-04",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "현대백화점",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "estimated",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-11-04",
+            "date_end": "2026-11-04",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "S-Oil",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "conflict",
+          "schedule": {
+            "precision": "conflict",
+            "date_start": null,
+            "date_end": null,
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            },
+            {
+              "source_type": "manual",
+              "label": "수동 확인",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:48:00.000Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "롯데에너지머티리얼즈",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-11-05",
+            "date_end": "2026-11-05",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CJ ENM",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-11-05",
+            "date_end": "2026-11-05",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "kst"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            },
+            {
+              "source_type": "manual",
+              "label": "수동 확인",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:48:00.000Z",
+              "verified_at": null
+            }
+          ]
+        },
+        {
+          "event_type": "conference_call",
+          "lifecycle": "active",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-11-05",
+            "date_end": "2026-11-05",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "kst"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "manual",
+              "label": "수동 확인",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:48:00.000Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "스튜디오드래곤",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-11-05",
+            "date_end": "2026-11-05",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "kst"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            },
+            {
+              "source_type": "manual",
+              "label": "수동 확인",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:48:00.000Z",
+              "verified_at": null
+            }
+          ]
+        },
+        {
+          "event_type": "conference_call",
+          "lifecycle": "active",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-11-05",
+            "date_end": "2026-11-05",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "kst"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "manual",
+              "label": "수동 확인",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:48:00.000Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "KT&G",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-11-05",
+            "date_end": "2026-11-05",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CJ프레시웨이",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-11-05",
+            "date_end": "2026-11-05",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nova",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-11-05",
+            "date_end": "2026-11-05",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "kst"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": null,
+              "verification": "verified",
+              "checked_at": "2026-10-16T05:50:26.000Z",
+              "verified_at": "2026-10-16T05:50:26.000Z"
+            }
+          ]
+        },
+        {
+          "event_type": "conference_call",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "datetime",
+            "date_start": "2026-11-05",
+            "date_end": "2026-11-05",
+            "local_datetime": "2026-11-05T08:30:00",
+            "time_zone": "America/New_York",
+            "utc_datetime": "2026-11-05T13:30:00.000Z",
+            "kst_datetime": "2026-11-05T13:30:00.000Z",
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": null,
+              "verification": "verified",
+              "checked_at": "2026-10-16T05:50:26.000Z",
+              "verified_at": "2026-10-16T05:50:26.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LG화학",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "estimated",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-11-05",
+            "date_end": "2026-11-05",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "강원랜드",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-11-06",
+            "date_end": "2026-11-06",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "파라다이스",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-11-06",
+            "date_end": "2026-11-06",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "씨에스윈드",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-11-06",
+            "date_end": "2026-11-06",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "한국타이어앤테크놀로지",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "estimated",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-11-06",
+            "date_end": "2026-11-06",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "롯데쇼핑",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "superseded",
+          "status": "estimated",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-11-06",
+            "date_end": "2026-11-06",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        },
+        {
+          "event_type": "conference_call",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-11-06",
+            "date_end": "2026-11-06",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "kst"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://www.lotteshoppingir.com/",
+              "verification": "verified",
+              "checked_at": "2026-10-16T05:48:00.000Z",
+              "verified_at": "2026-10-16T05:48:00.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "롯데케미칼",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "estimated",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-11-06",
+            "date_end": "2026-11-06",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "코스맥스",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "estimated",
+          "schedule": {
+            "precision": "week",
+            "date_start": "2026-11-08",
+            "date_end": "2026-11-14",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "와이지엔터테인먼트",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "estimated",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-11-09",
+            "date_end": "2026-11-09",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "롯데웰푸드",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-11-10",
+            "date_end": "2026-11-10",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CJ제일제당",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-11-10",
+            "date_end": "2026-11-10",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "동원산업",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-11-10",
+            "date_end": "2026-11-10",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "신세계",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "estimated",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-11-10",
+            "date_end": "2026-11-10",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "JYP Ent.",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-11-11",
+            "date_end": "2026-11-11",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "이마트",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "estimated",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-11-11",
+            "date_end": "2026-11-11",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Coherent",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-11-05",
+            "date_end": "2026-11-05",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "kst"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://ir.coherent.com/node/18371/pdf",
+              "verification": "verified",
+              "checked_at": "2026-10-16T05:50:26.000Z",
+              "verified_at": "2026-10-16T05:50:26.000Z"
+            }
+          ]
+        },
+        {
+          "event_type": "conference_call",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "datetime",
+            "date_start": "2026-11-04",
+            "date_end": "2026-11-04",
+            "local_datetime": "2026-11-04T16:30:00",
+            "time_zone": "America/New_York",
+            "utc_datetime": "2026-11-04T21:30:00.000Z",
+            "kst_datetime": "2026-11-04T21:30:00.000Z",
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://ir.coherent.com/node/18371/pdf",
+              "verification": "verified",
+              "checked_at": "2026-10-16T05:50:26.000Z",
+              "verified_at": "2026-10-16T05:50:26.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "코오롱인더",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "estimated",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-11-11",
+            "date_end": "2026-11-11",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "농심",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-11-13",
+            "date_end": "2026-11-13",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "대상",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-11-13",
+            "date_end": "2026-11-13",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "하이트진로",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-11-13",
+            "date_end": "2026-11-13",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "풀무원",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-11-13",
+            "date_end": "2026-11-13",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "세아제강",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-11-15",
+            "date_end": "2026-11-15",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SK바이오팜",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "estimated",
+          "schedule": {
+            "precision": "week",
+            "date_start": "2026-11-15",
+            "date_end": "2026-11-21",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Qualcomm",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "reported_confirmed_pending",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-11-17",
+            "date_end": "2026-11-17",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MPS",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-30",
+            "date_end": "2026-10-30",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "kst"
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://media.monolithicpower.com/investor-relations/press-releases/MPS_Q3_2026_Earnings_Date_Announcement.pdf",
+              "verification": "verified",
+              "checked_at": "2026-10-16T05:50:26.000Z",
+              "verified_at": "2026-10-16T05:50:26.000Z"
+            }
+          ]
+        },
+        {
+          "event_type": "conference_call",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "datetime",
+            "date_start": "2026-10-29",
+            "date_end": "2026-10-29",
+            "local_datetime": "2026-10-29T14:00:00",
+            "time_zone": "America/Los_Angeles",
+            "utc_datetime": "2026-10-29T21:00:00.000Z",
+            "kst_datetime": "2026-10-29T21:00:00.000Z",
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://media.monolithicpower.com/investor-relations/press-releases/MPS_Q3_2026_Earnings_Date_Announcement.pdf",
+              "verification": "verified",
+              "checked_at": "2026-10-16T05:50:26.000Z",
+              "verified_at": "2026-10-16T05:50:26.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "실리콘투",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "unscheduled",
+          "schedule": {
+            "precision": "unknown",
+            "date_start": null,
+            "date_end": null,
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "에코프로비엠",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "unscheduled",
+          "schedule": {
+            "precision": "unknown",
+            "date_start": null,
+            "date_end": null,
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "엘앤에프",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "unscheduled",
+          "schedule": {
+            "precision": "unknown",
+            "date_start": null,
+            "date_end": null,
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "WCP",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "unscheduled",
+          "schedule": {
+            "precision": "unknown",
+            "date_start": null,
+            "date_end": null,
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SKIET",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "unscheduled",
+          "schedule": {
+            "precision": "unknown",
+            "date_start": null,
+            "date_end": null,
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "솔루스첨단소재",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "unscheduled",
+          "schedule": {
+            "precision": "unknown",
+            "date_start": null,
+            "date_end": null,
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "풍산",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "unscheduled",
+          "schedule": {
+            "precision": "unknown",
+            "date_start": null,
+            "date_end": null,
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "고려아연",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "unscheduled",
+          "schedule": {
+            "precision": "unknown",
+            "date_start": null,
+            "date_end": null,
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HS효성첨단소재",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "unscheduled",
+          "schedule": {
+            "precision": "unknown",
+            "date_start": null,
+            "date_end": null,
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "금호석유화학",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "unscheduled",
+          "schedule": {
+            "precision": "unknown",
+            "date_start": null,
+            "date_end": null,
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "KCC",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "unscheduled",
+          "schedule": {
+            "precision": "unknown",
+            "date_start": null,
+            "date_end": null,
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "대한유화",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "unscheduled",
+          "schedule": {
+            "precision": "unknown",
+            "date_start": null,
+            "date_end": null,
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "롯데정밀화학",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "unscheduled",
+          "schedule": {
+            "precision": "unknown",
+            "date_start": null,
+            "date_end": null,
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "한국전력",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "unscheduled",
+          "schedule": {
+            "precision": "unknown",
+            "date_start": null,
+            "date_end": null,
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "한국가스공사",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "unscheduled",
+          "schedule": {
+            "precision": "unknown",
+            "date_start": null,
+            "date_end": null,
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SK가스",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "unscheduled",
+          "schedule": {
+            "precision": "unknown",
+            "date_start": null,
+            "date_end": null,
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "지역난방공사",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "unscheduled",
+          "schedule": {
+            "precision": "unknown",
+            "date_start": null,
+            "date_end": null,
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "한전KPS",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "unscheduled",
+          "schedule": {
+            "precision": "unknown",
+            "date_start": null,
+            "date_end": null,
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "한전기술",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "unscheduled",
+          "schedule": {
+            "precision": "unknown",
+            "date_start": null,
+            "date_end": null,
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SK이터닉스",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "unscheduled",
+          "schedule": {
+            "precision": "unknown",
+            "date_start": null,
+            "date_end": null,
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "E1",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "unscheduled",
+          "schedule": {
+            "precision": "unknown",
+            "date_start": null,
+            "date_end": null,
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SK네트웍스",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "unscheduled",
+          "schedule": {
+            "precision": "unknown",
+            "date_start": null,
+            "date_end": null,
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LX인터내셔널",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "unscheduled",
+          "schedule": {
+            "precision": "unknown",
+            "date_start": null,
+            "date_end": null,
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "현대코퍼레이션",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "unscheduled",
+          "schedule": {
+            "precision": "unknown",
+            "date_start": null,
+            "date_end": null,
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HD현대중공업",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "unscheduled",
+          "schedule": {
+            "precision": "unknown",
+            "date_start": null,
+            "date_end": null,
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HD현대마린엔진",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "unscheduled",
+          "schedule": {
+            "precision": "unknown",
+            "date_start": null,
+            "date_end": null,
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SK오션플랜트",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "unscheduled",
+          "schedule": {
+            "precision": "unknown",
+            "date_start": null,
+            "date_end": null,
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "두산에너빌리티",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "unscheduled",
+          "schedule": {
+            "precision": "unknown",
+            "date_start": null,
+            "date_end": null,
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "두산퓨얼셀",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "unscheduled",
+          "schedule": {
+            "precision": "unknown",
+            "date_start": null,
+            "date_end": null,
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "한미약품",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "unscheduled",
+          "schedule": {
+            "precision": "unknown",
+            "date_start": null,
+            "date_end": null,
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "부광약품",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "unscheduled",
+          "schedule": {
+            "precision": "unknown",
+            "date_start": null,
+            "date_end": null,
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "롯데칠성",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "unscheduled",
+          "schedule": {
+            "precision": "unknown",
+            "date_start": null,
+            "date_end": null,
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "삼양식품",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "unscheduled",
+          "schedule": {
+            "precision": "unknown",
+            "date_start": null,
+            "date_end": null,
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T06:23:23.786Z",
+          "sources": [
+            {
+              "source_type": "broker_pdf",
+              "label": "증권사 자료",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-16T05:42:58.930Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SK스퀘어",
+      "ticker": "402340",
+      "events": []
+    },
+    {
+      "name": "삼성전기",
+      "ticker": "009150",
+      "events": [
+        {
+          "event_type": "conference_call",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "datetime",
+            "date_start": "2026-10-28",
+            "date_end": "2026-10-28",
+            "local_datetime": "2026-10-28T13:00:00",
+            "time_zone": "Asia/Seoul",
+            "utc_datetime": "2026-10-28T04:00:00.000Z",
+            "kst_datetime": "2026-10-28T04:00:00.000Z",
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T07:36:14.891Z",
+          "sources": [
+            {
+              "source_type": "dart",
+              "label": "DART 공시",
+              "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012800255",
+              "verification": "verified",
+              "checked_at": "2026-10-16T07:11:32.000Z",
+              "verified_at": "2026-10-16T07:11:32.000Z"
+            },
+            {
+              "source_type": "dart",
+              "label": "DART 공시",
+              "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012800255",
+              "verification": "verified",
+              "checked_at": "2026-10-16T07:35:00.000Z",
+              "verified_at": "2026-10-16T07:35:00.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "KB금융",
+      "ticker": "105560",
+      "events": [
+        {
+          "event_type": "conference_call",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "datetime",
+            "date_start": "2026-10-29",
+            "date_end": "2026-10-29",
+            "local_datetime": "2026-10-29T16:00:00",
+            "time_zone": "Asia/Seoul",
+            "utc_datetime": "2026-10-29T07:00:00.000Z",
+            "kst_datetime": "2026-10-29T07:00:00.000Z",
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T07:36:14.891Z",
+          "sources": [
+            {
+              "source_type": "dart",
+              "label": "DART 공시",
+              "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261015800283",
+              "verification": "verified",
+              "checked_at": "2026-10-16T07:10:40.000Z",
+              "verified_at": "2026-10-16T07:10:40.000Z"
+            },
+            {
+              "source_type": "dart",
+              "label": "DART 공시",
+              "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261015800283",
+              "verification": "verified",
+              "checked_at": "2026-10-16T07:35:00.000Z",
+              "verified_at": "2026-10-16T07:35:00.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "삼성생명",
+      "ticker": "032830",
+      "events": []
+    },
+    {
+      "name": "신한지주",
+      "ticker": "055550",
+      "events": [
+        {
+          "event_type": "conference_call",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "datetime",
+            "date_start": "2026-10-27",
+            "date_end": "2026-10-27",
+            "local_datetime": "2026-10-27T14:00:00",
+            "time_zone": "Asia/Seoul",
+            "utc_datetime": "2026-10-27T05:00:00.000Z",
+            "kst_datetime": "2026-10-27T05:00:00.000Z",
+            "date_basis": null
+          },
+          "updated_at": "2026-10-16T07:36:14.891Z",
+          "sources": [
+            {
+              "source_type": "dart",
+              "label": "DART 공시",
+              "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012800533",
+              "verification": "verified",
+              "checked_at": "2026-10-16T07:10:40.000Z",
+              "verified_at": "2026-10-16T07:10:40.000Z"
+            },
+            {
+              "source_type": "dart",
+              "label": "DART 공시",
+              "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012800533",
+              "verification": "verified",
+              "checked_at": "2026-10-16T07:35:00.000Z",
+              "verified_at": "2026-10-16T07:35:00.000Z"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "data_sha256": "5255106633c29fb5fabe62a176443b520acc46cab3bc5a81f344dee8f209ebc0",
+  "public_copy": {
+    "status": "publishing",
+    "last_attempt_at": "2026-10-19T23:53:47.695Z",
+    "last_success_at": null,
+    "last_verified_data_sha256": null
+  }
+}

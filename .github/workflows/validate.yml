@@ -1,0 +1,60 @@
+name: Validate public snapshot
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Read the exact public commit
+        shell: bash
+        run: |
+          set -euo pipefail
+          git init .
+          git fetch --no-tags --depth=1 https://github.com/inandout-kr/earnings-calendar-public.git "$GITHUB_SHA"
+          git checkout --detach FETCH_HEAD
+      - name: Check JavaScript and public data schema
+        shell: bash
+        run: |
+          set -euo pipefail
+          node --check app.js
+          node --input-type=module <<'NODE'
+          import {readFileSync} from 'node:fs';
+          import {execFileSync} from 'node:child_process';
+          import {createHash} from 'node:crypto';
+          import assert from 'node:assert/strict';
+          const allowed=['.github/workflows/validate.yml','.nojekyll','README.md','app.js','data.json','index.html','styles.css'].sort();
+          assert.deepEqual(execFileSync('git',['ls-files'],{encoding:'utf8'}).trim().split('\n').sort(),allowed);
+          const d=JSON.parse(readFileSync('data.json','utf8'));
+          const keys=(o,k)=>assert.deepEqual(Object.keys(o).sort(),k.split(',').sort());
+          keys(d,'schema_version,source_read_at,data_as_of,original_source_refresh,counts,companies,data_sha256,public_copy');
+          assert.equal(d.schema_version,1);
+          keys(d.data_as_of,'latest_event_change_at,latest_evidence_check_at');
+          keys(d.counts,'companies,events');
+          keys(d.original_source_refresh,'status,last_attempt_at,last_success_at,coverage');
+          keys(d.original_source_refresh.coverage,'expected_companies,checked_companies,failed_companies');
+          keys(d.public_copy,'status,last_attempt_at,last_success_at,last_verified_data_sha256');
+          assert.ok(d.counts.companies>=152 && d.counts.events>=184);
+          assert.equal(d.companies.length,d.counts.companies);
+          let count=0;
+          for(const c of d.companies){
+            keys(c,'name,ticker,events');
+            for(const e of c.events){
+              count++;keys(e,'event_type,lifecycle,status,schedule,updated_at,sources');
+              keys(e.schedule,'precision,date_start,date_end,local_datetime,time_zone,utc_datetime,kst_datetime,date_basis');
+              for(const s of e.sources){
+                keys(s,'source_type,label,url,verification,checked_at,verified_at');
+                if(s.url){const u=new URL(s.url);assert.equal(u.protocol,'https:');assert.equal(u.username+u.password,'');}
+              }
+            }
+          }
+          assert.equal(count,d.counts.events);
+          assert.ok(!/@|bearer\s|gh[pousr]_|github_pat_|sk-[A-Za-z0-9]{16}/i.test(JSON.stringify(d.companies)));
+          const core={schema_version:d.schema_version,data_as_of:d.data_as_of,counts:d.counts,companies:d.companies};
+          assert.equal(createHash('sha256').update(JSON.stringify(core)).digest('hex'),d.data_sha256);
+          if(d.public_copy.status==='succeeded')assert.equal(d.public_copy.last_verified_data_sha256,d.data_sha256);
+          console.log('Public schema, scope, digest and JavaScript checks passed.');
+          NODE

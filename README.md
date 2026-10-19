@@ -1,5 +1,11 @@
-# Public earnings calendar
+# 실적발표 일정
 
 <!-- earnings-calendar-public:managed:v1 -->
 
-Publication is being prepared. Only validated public schedules and sources are published.
+기업의 실적 발표·컨퍼런스콜 일정과 공개 출처를 보여주는 읽기 전용 사이트입니다.
+
+`data.json`은 허용된 공개 필드만으로 생성됩니다. 회사명·확인된 종목코드, 일정의 정밀도, 공식 확인·추정·미정·충돌 상태와 출처를 보존합니다. 대체된 과거 일정은 별도로 표시합니다.
+
+전체 기업의 원문 재검증 성공, 개별 근거 확인, 원본 조회, 공개 사본 반영은 서로 다른 시각입니다. 전체 재검증이 확인되지 않은 경우 화면에 미확인 상태를 표시하며, 오래된 근거는 경고합니다.
+
+GitHub Pages에서 정적 파일로 제공하며 외부 스크립트나 추적 도구를 사용하지 않습니다.
