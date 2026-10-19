@@ -6013,9 +6013,9 @@
   ],
   "data_sha256": "5255106633c29fb5fabe62a176443b520acc46cab3bc5a81f344dee8f209ebc0",
   "public_copy": {
-    "status": "publishing",
+    "status": "succeeded",
     "last_attempt_at": "2026-10-19T23:53:47.695Z",
-    "last_success_at": null,
-    "last_verified_data_sha256": null
+    "last_success_at": "2026-10-19T23:58:41.828Z",
+    "last_verified_data_sha256": "5255106633c29fb5fabe62a176443b520acc46cab3bc5a81f344dee8f209ebc0"
   }
 }
