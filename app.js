@@ -50,6 +50,18 @@
     if (value !== undefined) node.textContent = value;
     return node;
   }
+  function companyConfirmation(company) {
+    const sources = company.events.flatMap((event) => event.sources);
+    const latest = (items) => items.flatMap((source) => [source.checked_at, source.verified_at]).filter(Boolean).sort((a, b) => Date.parse(b) - Date.parse(a))[0] || null;
+    return { official: latest(sources.filter((source) => source.verification === 'verified' && ['corporate_ir', 'kind', 'dart', 'exchange'].includes(source.source_type))), reference: latest(sources) };
+  }
+  function companyCoverage(data) {
+    const cutoff = Date.now() - 24 * 3600 * 1000;
+    const confirmations = data.companies.map(companyConfirmation);
+    const recent = confirmations.filter((item) => item.official && Date.parse(item.official) >= cutoff && Date.parse(item.official) <= Date.now()).length;
+    const missing = confirmations.filter((item) => !item.official).length;
+    return { recent, missing, older: confirmations.length - recent - missing, total: confirmations.length };
+  }
   function metadata() {
     const data = snapshot, origin = data.original_source_refresh, copy = data.public_copy;
     const originLabels = { unverified: '전체 기업 갱신 성공 미확인', publishing: '전체 기업 갱신 진행 중', succeeded: '전체 기업 갱신 성공', partial_failure: '전체 기업 갱신 일부 실패', failed: '전체 기업 갱신 실패' };
@@ -64,7 +76,7 @@
     $('copy-status').closest('.freshness-line').classList.toggle('success', !requestFailure && copy.status === 'succeeded');
     text('copy-success', '마지막 공개 반영 성공: ' + timestamp(copy.last_success_at));
     text('copy-attempt', '반영 시도: ' + timestamp(copy.last_attempt_at) + ' · 화면 요청' + (requestFailure ? ' 실패: ' : ': ') + timestamp(requestAt));
-    text('evidence-time', timestamp(data.data_as_of.latest_evidence_check_at));
+    text('evidence-time', timestamp(data.data_as_of.latest_evidence_check_at) + ' (보유 근거 중 최대시각)');
     text('change-time', timestamp(data.data_as_of.latest_event_change_at));
     text('read-time', timestamp(data.source_read_at));
     const events = data.companies.flatMap((c) => c.events);
@@ -73,11 +85,16 @@
     text('active-count', events.filter((e) => e.lifecycle === 'active').length.toLocaleString('ko-KR'));
     text('unknown-count', data.companies.filter((c) => !c.events.some((e) => e.lifecycle === 'active' && knownDate(e))).length.toLocaleString('ko-KR'));
     text('superseded-count', `(${events.filter((e) => e.lifecycle === 'superseded').length})`);
+    const coverage = companyCoverage(data);
+    let coverageNote = $('company-coverage');
+    if (!coverageNote) { coverageNote = element('p', 'coverage-note'); coverageNote.id = 'company-coverage'; $('origin-status').closest('.freshness').append(coverageNote); }
+    coverageNote.textContent = `최근 24시간 공식근거가 확인된 기업 ${coverage.recent}/${coverage.total} · 24시간 이전 ${coverage.older} · 공식근거 미확인 ${coverage.missing}. 일부 일정의 근거 확인 수이며 전체 기업 조사 완료를 뜻하지 않습니다. 최대시각은 현재 보유한 단일 근거의 최신 기록입니다.`;
     const latest = data.data_as_of.latest_evidence_check_at;
     const stale = !latest || Date.now() - Date.parse(latest) > 36 * 3600 * 1000;
     const messages = [];
     if (requestFailure) messages.push('공개 데이터를 다시 불러오지 못했습니다. 직전에 불러온 사본을 유지하고 있습니다. 다시 불러오기를 시도하세요.');
     if (origin.status !== 'succeeded') messages.push('전체 기업의 최신 갱신 성공은 확인되지 않았습니다. 아래 시각은 마지막으로 남아 있는 일정 변경·근거 확인 기록입니다.');
+    if (coverage.older || coverage.missing) messages.push(`기업별 확인 범위: ${coverage.older}기업은 공식근거 확인이 24시간 이전이며 ${coverage.missing}기업은 확인된 공식근거 시각이 없습니다. 일부 새 근거가 추가되어도 나머지 기업의 최신성이 확인되는 것은 아닙니다.`);
     if (stale) messages.push(latest ? '오래된 데이터: 최신 근거 확인 이후 36시간이 지났습니다. 현재 일정으로 확정하기 전에 출처를 확인하세요.' : '근거 확인 시각이 없어 데이터의 최신 여부를 확인할 수 없습니다.');
     $('notice').hidden = messages.length === 0;
     $('notice').classList.toggle('error', !!requestFailure);
@@ -134,7 +151,9 @@
   function openEvent(company, event) {
     text('event-detail-title', company.name);
     text('event-detail-caption', (company.ticker || '종목코드 미확인') + ' · ' + types[event.event_type]);
-    $('event-detail-content').replaceChildren(renderEvent(event));
+    const confirmed = companyConfirmation(company), summary = element('section', 'detail-confirmation');
+    summary.append(element('p', '', '해당 기업 마지막 공식근거 확인: ' + timestamp(confirmed.official)), element('p', '', '참고 근거 최근 조회·기록: ' + timestamp(confirmed.reference)), element('small', '', '현재 공개본의 해당 기업 근거를 합산한 시각입니다. 참고 시각에는 확인대기·실패 기록도 포함되며, 기업 전체 일정의 최신성이나 전체 조사 완료를 뜻하지 않습니다.'));
+    $('event-detail-content').replaceChildren(summary, renderEvent(event));
     $('event-dialog').showModal();
   }
   function chip(company, event, side = false) {

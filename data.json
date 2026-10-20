@@ -1,23 +1,23 @@
 {
   "schema_version": 1,
-  "source_read_at": "2026-10-19T23:53:53.130Z",
+  "source_read_at": "2026-10-20T00:33:43.950Z",
   "data_as_of": {
-    "latest_event_change_at": "2026-10-16T07:36:14.891Z",
-    "latest_evidence_check_at": "2026-10-16T07:35:00.000Z"
+    "latest_event_change_at": "2026-10-20T00:32:28.600Z",
+    "latest_evidence_check_at": "2026-10-20T00:21:10.407Z"
   },
   "original_source_refresh": {
     "status": "unverified",
     "last_attempt_at": null,
     "last_success_at": null,
     "coverage": {
-      "expected_companies": 152,
+      "expected_companies": 153,
       "checked_companies": null,
       "failed_companies": null
     }
   },
   "counts": {
-    "companies": 152,
-    "events": 184
+    "companies": 153,
+    "events": 187
   },
   "companies": [
     {
@@ -27,7 +27,7 @@
         {
           "event_type": "earnings_release",
           "lifecycle": "active",
-          "status": "reported_confirmed_pending",
+          "status": "verified_confirmed",
           "schedule": {
             "precision": "date",
             "date_start": "2026-10-14",
@@ -38,7 +38,7 @@
             "kst_datetime": null,
             "date_basis": "source_printed"
           },
-          "updated_at": "2026-10-16T06:23:23.786Z",
+          "updated_at": "2026-10-20T00:32:28.600Z",
           "sources": [
             {
               "source_type": "broker_pdf",
@@ -47,6 +47,14 @@
               "verification": "pending",
               "checked_at": "2026-10-16T05:42:58.930Z",
               "verified_at": null
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://investor.asml.com/news-releases/news-release-details/asml-reports-eu11.7-billion-total-net-sales-and-eu5.0-billion-net-income-q3-2026",
+              "verification": "verified",
+              "checked_at": "2026-10-20T00:20:51.000Z",
+              "verified_at": "2026-10-20T00:20:51.000Z"
             }
           ]
         }
@@ -59,7 +67,7 @@
         {
           "event_type": "earnings_release",
           "lifecycle": "active",
-          "status": "reported_confirmed_pending",
+          "status": "verified_confirmed",
           "schedule": {
             "precision": "date",
             "date_start": "2026-10-15",
@@ -70,7 +78,7 @@
             "kst_datetime": null,
             "date_basis": "source_printed"
           },
-          "updated_at": "2026-10-16T06:23:23.786Z",
+          "updated_at": "2026-10-20T00:32:28.600Z",
           "sources": [
             {
               "source_type": "broker_pdf",
@@ -79,6 +87,40 @@
               "verification": "pending",
               "checked_at": "2026-10-16T05:42:58.930Z",
               "verified_at": null
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": null,
+              "verification": "verified",
+              "checked_at": "2026-10-20T00:20:51.000Z",
+              "verified_at": "2026-10-20T00:20:51.000Z"
+            }
+          ]
+        },
+        {
+          "event_type": "conference_call",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "datetime",
+            "date_start": "2026-10-15",
+            "date_end": "2026-10-15",
+            "local_datetime": "2026-10-15T14:00:00",
+            "time_zone": "Asia/Taipei",
+            "utc_datetime": "2026-10-15T06:00:00.000Z",
+            "kst_datetime": "2026-10-15T06:00:00.000Z",
+            "date_basis": null
+          },
+          "updated_at": "2026-10-20T00:32:28.600Z",
+          "sources": [
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://investor.tsmc.com/english/quarterly-results/teleconference",
+              "verification": "verified",
+              "checked_at": "2026-10-20T00:20:51.000Z",
+              "verified_at": "2026-10-20T00:20:51.000Z"
             }
           ]
         }
@@ -102,7 +144,7 @@
             "kst_datetime": null,
             "date_basis": "source_printed"
           },
-          "updated_at": "2026-10-16T06:23:23.786Z",
+          "updated_at": "2026-10-20T00:32:28.600Z",
           "sources": [
             {
               "source_type": "broker_pdf",
@@ -119,6 +161,14 @@
               "verification": "verified",
               "checked_at": "2026-10-16T05:43:57.000Z",
               "verified_at": "2026-10-16T05:43:57.000Z"
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://www.celltrion.com/ko-kr/company/media-center/press-release/4941",
+              "verification": "verified",
+              "checked_at": "2026-10-20T00:20:51.000Z",
+              "verified_at": "2026-10-20T00:20:51.000Z"
             }
           ]
         }
@@ -142,7 +192,7 @@
             "kst_datetime": null,
             "date_basis": "source_printed"
           },
-          "updated_at": "2026-10-16T06:23:23.786Z",
+          "updated_at": "2026-10-20T00:24:39.478Z",
           "sources": [
             {
               "source_type": "broker_pdf",
@@ -159,6 +209,14 @@
               "verification": "verified",
               "checked_at": "2026-10-16T05:43:57.000Z",
               "verified_at": "2026-10-16T05:43:57.000Z"
+            },
+            {
+              "source_type": "kind",
+              "label": "KIND 공시",
+              "url": "https://kind.krx.co.kr/external/2026/10/07/000069/20261006000182/99833.htm",
+              "verification": "verified",
+              "checked_at": "2026-10-20T00:18:32.378Z",
+              "verified_at": "2026-10-20T00:18:32.378Z"
             }
           ]
         }
@@ -287,7 +345,7 @@
         {
           "event_type": "earnings_release",
           "lifecycle": "active",
-          "status": "reported_confirmed_pending",
+          "status": "verified_confirmed",
           "schedule": {
             "precision": "date",
             "date_start": "2026-10-21",
@@ -298,7 +356,7 @@
             "kst_datetime": null,
             "date_basis": "source_printed"
           },
-          "updated_at": "2026-10-16T06:23:23.786Z",
+          "updated_at": "2026-10-20T00:24:39.478Z",
           "sources": [
             {
               "source_type": "broker_pdf",
@@ -315,6 +373,14 @@
               "verification": "pending",
               "checked_at": "2026-10-16T05:43:57.000Z",
               "verified_at": null
+            },
+            {
+              "source_type": "kind",
+              "label": "KIND 공시",
+              "url": "https://kind.krx.co.kr/external/2026/10/16/000208/20261014000896/99833.htm",
+              "verification": "verified",
+              "checked_at": "2026-10-20T00:18:32.378Z",
+              "verified_at": "2026-10-20T00:18:32.378Z"
             }
           ]
         }
@@ -338,7 +404,7 @@
             "kst_datetime": null,
             "date_basis": "source_printed"
           },
-          "updated_at": "2026-10-16T06:23:23.786Z",
+          "updated_at": "2026-10-20T00:32:28.600Z",
           "sources": [
             {
               "source_type": "broker_pdf",
@@ -355,6 +421,14 @@
               "verification": "verified",
               "checked_at": "2026-10-16T05:43:57.000Z",
               "verified_at": "2026-10-16T05:43:57.000Z"
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://samsungbiologics.com/kr/ir/resource/events",
+              "verification": "verified",
+              "checked_at": "2026-10-20T00:20:51.000Z",
+              "verified_at": "2026-10-20T00:20:51.000Z"
             }
           ]
         }
@@ -370,15 +444,15 @@
           "status": "verified_confirmed",
           "schedule": {
             "precision": "date",
-            "date_start": "2026-10-22",
-            "date_end": "2026-10-22",
+            "date_start": "2026-10-21",
+            "date_end": "2026-10-21",
             "local_datetime": null,
             "time_zone": null,
             "utc_datetime": null,
             "kst_datetime": null,
-            "date_basis": "kst"
+            "date_basis": "local"
           },
-          "updated_at": "2026-10-16T06:23:23.786Z",
+          "updated_at": "2026-10-20T00:32:28.600Z",
           "sources": [
             {
               "source_type": "broker_pdf",
@@ -395,6 +469,14 @@
               "verification": "verified",
               "checked_at": "2026-10-16T05:43:57.000Z",
               "verified_at": "2026-10-16T05:43:57.000Z"
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://ir.tesla.com/press-release/tesla-third-quarter-2026-production-deliveries-and-deployments",
+              "verification": "verified",
+              "checked_at": "2026-10-20T00:20:51.000Z",
+              "verified_at": "2026-10-20T00:20:51.000Z"
             }
           ]
         },
@@ -412,7 +494,7 @@
             "kst_datetime": "2026-10-21T21:30:00.000Z",
             "date_basis": null
           },
-          "updated_at": "2026-10-16T06:23:23.786Z",
+          "updated_at": "2026-10-20T00:32:28.600Z",
           "sources": [
             {
               "source_type": "corporate_ir",
@@ -421,6 +503,14 @@
               "verification": "verified",
               "checked_at": "2026-10-16T05:43:57.000Z",
               "verified_at": "2026-10-16T05:43:57.000Z"
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://ir.tesla.com/press-release/tesla-third-quarter-2026-production-deliveries-and-deployments",
+              "verification": "verified",
+              "checked_at": "2026-10-20T00:20:51.000Z",
+              "verified_at": "2026-10-20T00:20:51.000Z"
             }
           ]
         }
@@ -470,15 +560,23 @@
             "kst_datetime": "2026-10-21T20:30:00.000Z",
             "date_basis": null
           },
-          "updated_at": "2026-10-16T06:23:23.786Z",
+          "updated_at": "2026-10-20T00:32:28.600Z",
           "sources": [
             {
               "source_type": "corporate_ir",
               "label": "기업 공식 IR",
-              "url": null,
+              "url": "https://www.ti.com/about-ti/newsroom/news-releases/2026/2026-10-01-texas-instruments-to-webcast-q3-2026-earnings-conference-call.html",
               "verification": "verified",
               "checked_at": "2026-10-16T05:43:57.000Z",
               "verified_at": "2026-10-16T05:43:57.000Z"
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://www.ti.com/about-ti/newsroom/news-releases/2026/2026-10-01-texas-instruments-to-webcast-q3-2026-earnings-conference-call.html",
+              "verification": "verified",
+              "checked_at": "2026-10-20T00:20:51.000Z",
+              "verified_at": "2026-10-20T00:20:51.000Z"
             }
           ]
         }
@@ -528,15 +626,23 @@
             "kst_datetime": "2026-10-21T21:00:00.000Z",
             "date_basis": null
           },
-          "updated_at": "2026-10-16T06:23:23.786Z",
+          "updated_at": "2026-10-20T00:32:28.600Z",
           "sources": [
             {
               "source_type": "corporate_ir",
               "label": "기업 공식 IR",
-              "url": null,
+              "url": "https://investor.lamresearch.com/2026-09-30-Lam-Research-Corporation-Announces-September-Quarter-Financial-Conference-Call",
               "verification": "verified",
               "checked_at": "2026-10-16T05:43:57.000Z",
               "verified_at": "2026-10-16T05:43:57.000Z"
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://investor.lamresearch.com/2026-09-30-Lam-Research-Corporation-Announces-September-Quarter-Financial-Conference-Call",
+              "verification": "verified",
+              "checked_at": "2026-10-20T00:20:51.000Z",
+              "verified_at": "2026-10-20T00:20:51.000Z"
             }
           ]
         }
@@ -560,7 +666,7 @@
             "kst_datetime": "2026-10-22T06:50:00.000Z",
             "date_basis": null
           },
-          "updated_at": "2026-10-16T06:23:23.786Z",
+          "updated_at": "2026-10-20T00:24:39.478Z",
           "sources": [
             {
               "source_type": "broker_pdf",
@@ -577,6 +683,14 @@
               "verification": "verified",
               "checked_at": "2026-10-16T05:43:57.000Z",
               "verified_at": "2026-10-16T05:43:57.000Z"
+            },
+            {
+              "source_type": "kind",
+              "label": "KIND 공시",
+              "url": "https://kind.krx.co.kr/external/2026/10/15/000423/20261015001123/99664.htm",
+              "verification": "verified",
+              "checked_at": "2026-10-20T00:18:32.378Z",
+              "verified_at": "2026-10-20T00:18:32.378Z"
             }
           ]
         },
@@ -594,7 +708,7 @@
             "kst_datetime": "2026-10-22T07:00:00.000Z",
             "date_basis": null
           },
-          "updated_at": "2026-10-16T06:23:23.786Z",
+          "updated_at": "2026-10-20T00:24:39.478Z",
           "sources": [
             {
               "source_type": "dart",
@@ -603,6 +717,14 @@
               "verification": "verified",
               "checked_at": "2026-10-16T05:43:57.000Z",
               "verified_at": "2026-10-16T05:43:57.000Z"
+            },
+            {
+              "source_type": "kind",
+              "label": "KIND 공시",
+              "url": "https://kind.krx.co.kr/external/2026/10/15/000423/20261015001123/99664.htm",
+              "verification": "verified",
+              "checked_at": "2026-10-20T00:18:32.378Z",
+              "verified_at": "2026-10-20T00:18:32.378Z"
             }
           ]
         }
@@ -804,7 +926,7 @@
             "kst_datetime": "2026-10-26T21:00:00.000Z",
             "date_basis": null
           },
-          "updated_at": "2026-10-16T06:23:23.786Z",
+          "updated_at": "2026-10-20T00:32:28.600Z",
           "sources": [
             {
               "source_type": "corporate_ir",
@@ -813,6 +935,14 @@
               "verification": "verified",
               "checked_at": "2026-10-16T05:50:26.000Z",
               "verified_at": "2026-10-16T05:50:26.000Z"
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://ir.amkor.com/events/event-details/q3-2026-amkor-technology-inc-earnings-conference-call",
+              "verification": "verified",
+              "checked_at": "2026-10-20T00:20:51.000Z",
+              "verified_at": "2026-10-20T00:20:51.000Z"
             }
           ]
         }
@@ -862,7 +992,7 @@
             "kst_datetime": "2026-10-26T21:00:00.000Z",
             "date_basis": null
           },
-          "updated_at": "2026-10-16T06:23:23.786Z",
+          "updated_at": "2026-10-20T00:32:28.600Z",
           "sources": [
             {
               "source_type": "corporate_ir",
@@ -871,6 +1001,14 @@
               "verification": "verified",
               "checked_at": "2026-10-16T05:50:26.000Z",
               "verified_at": "2026-10-16T05:50:26.000Z"
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://investor.rambus.com/press-releases/press-release-details/2026/Rambus-to-Announce-Third-Quarter-Fiscal-Year-2026-Results/default.aspx",
+              "verification": "verified",
+              "checked_at": "2026-10-20T00:20:51.000Z",
+              "verified_at": "2026-10-20T00:20:51.000Z"
             }
           ]
         }
@@ -952,7 +1090,7 @@
             "kst_datetime": "2026-10-28T00:00:00.000Z",
             "date_basis": null
           },
-          "updated_at": "2026-10-16T06:23:23.786Z",
+          "updated_at": "2026-10-20T00:32:28.600Z",
           "sources": [
             {
               "source_type": "corporate_ir",
@@ -961,6 +1099,14 @@
               "verification": "verified",
               "checked_at": "2026-10-16T05:56:39.004Z",
               "verified_at": "2026-10-16T05:56:39.004Z"
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526420934/d413172d6k.htm",
+              "verification": "verified",
+              "checked_at": "2026-10-20T00:20:51.000Z",
+              "verified_at": "2026-10-20T00:20:51.000Z"
             }
           ]
         }
@@ -976,15 +1122,15 @@
           "status": "verified_confirmed",
           "schedule": {
             "precision": "date",
-            "date_start": "2026-10-28",
-            "date_end": "2026-10-28",
+            "date_start": "2026-10-27",
+            "date_end": "2026-10-27",
             "local_datetime": null,
             "time_zone": null,
             "utc_datetime": null,
             "kst_datetime": null,
-            "date_basis": "kst"
+            "date_basis": "local"
           },
-          "updated_at": "2026-10-16T06:23:23.786Z",
+          "updated_at": "2026-10-20T00:32:28.600Z",
           "sources": [
             {
               "source_type": "broker_pdf",
@@ -1001,6 +1147,14 @@
               "verification": "verified",
               "checked_at": "2026-10-16T05:50:26.000Z",
               "verified_at": "2026-10-16T05:50:26.000Z"
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://investors.nxp.com/node/24921/pdf",
+              "verification": "verified",
+              "checked_at": "2026-10-20T00:20:51.000Z",
+              "verified_at": "2026-10-20T00:20:51.000Z"
             }
           ]
         },
@@ -1018,7 +1172,7 @@
             "kst_datetime": "2026-10-27T20:30:00.000Z",
             "date_basis": null
           },
-          "updated_at": "2026-10-16T06:23:23.786Z",
+          "updated_at": "2026-10-20T00:32:28.600Z",
           "sources": [
             {
               "source_type": "corporate_ir",
@@ -1027,6 +1181,14 @@
               "verification": "verified",
               "checked_at": "2026-10-16T05:50:26.000Z",
               "verified_at": "2026-10-16T05:50:26.000Z"
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://investors.nxp.com/node/24921/pdf",
+              "verification": "verified",
+              "checked_at": "2026-10-20T00:20:51.000Z",
+              "verified_at": "2026-10-20T00:20:51.000Z"
             }
           ]
         }
@@ -1106,15 +1268,15 @@
           "status": "verified_confirmed",
           "schedule": {
             "precision": "date",
-            "date_start": "2026-10-28",
-            "date_end": "2026-10-28",
+            "date_start": "2026-10-27",
+            "date_end": "2026-10-27",
             "local_datetime": null,
             "time_zone": null,
             "utc_datetime": null,
             "kst_datetime": null,
-            "date_basis": "kst"
+            "date_basis": "local"
           },
-          "updated_at": "2026-10-16T06:23:23.786Z",
+          "updated_at": "2026-10-20T00:32:28.600Z",
           "sources": [
             {
               "source_type": "broker_pdf",
@@ -1131,6 +1293,14 @@
               "verification": "verified",
               "checked_at": "2026-10-16T05:50:26.000Z",
               "verified_at": "2026-10-16T05:50:26.000Z"
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://investors.teradyne.com/news-events/press-releases/detail/454/teradyne-to-announce-third-quarter-2026-results",
+              "verification": "verified",
+              "checked_at": "2026-10-20T00:20:51.000Z",
+              "verified_at": "2026-10-20T00:20:51.000Z"
             }
           ]
         },
@@ -1148,7 +1318,7 @@
             "kst_datetime": "2026-10-28T12:30:00.000Z",
             "date_basis": null
           },
-          "updated_at": "2026-10-16T06:23:23.786Z",
+          "updated_at": "2026-10-20T00:32:28.600Z",
           "sources": [
             {
               "source_type": "corporate_ir",
@@ -1157,6 +1327,14 @@
               "verification": "verified",
               "checked_at": "2026-10-16T05:50:26.000Z",
               "verified_at": "2026-10-16T05:50:26.000Z"
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://investors.teradyne.com/news-events/press-releases/detail/454/teradyne-to-announce-third-quarter-2026-results",
+              "verification": "verified",
+              "checked_at": "2026-10-20T00:20:51.000Z",
+              "verified_at": "2026-10-20T00:20:51.000Z"
             }
           ]
         }
@@ -1180,7 +1358,7 @@
             "kst_datetime": "2026-10-28T06:30:00.000Z",
             "date_basis": null
           },
-          "updated_at": "2026-10-16T06:23:23.786Z",
+          "updated_at": "2026-10-20T00:32:28.600Z",
           "sources": [
             {
               "source_type": "broker_pdf",
@@ -1197,6 +1375,14 @@
               "verification": "verified",
               "checked_at": "2026-10-16T05:50:26.000Z",
               "verified_at": "2026-10-16T05:50:26.000Z"
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://www.advantest.com/en/investors/ir-calendar/",
+              "verification": "verified",
+              "checked_at": "2026-10-20T00:20:51.000Z",
+              "verified_at": "2026-10-20T00:20:51.000Z"
             }
           ]
         }
@@ -1212,15 +1398,15 @@
           "status": "verified_confirmed",
           "schedule": {
             "precision": "date",
-            "date_start": "2026-10-29",
-            "date_end": "2026-10-29",
+            "date_start": "2026-10-28",
+            "date_end": "2026-10-28",
             "local_datetime": null,
             "time_zone": null,
             "utc_datetime": null,
             "kst_datetime": null,
-            "date_basis": "kst"
+            "date_basis": "local"
           },
-          "updated_at": "2026-10-16T06:23:23.786Z",
+          "updated_at": "2026-10-20T00:32:28.600Z",
           "sources": [
             {
               "source_type": "broker_pdf",
@@ -1237,6 +1423,14 @@
               "verification": "verified",
               "checked_at": "2026-10-16T05:50:26.000Z",
               "verified_at": "2026-10-16T05:50:26.000Z"
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://ir.kla.com/news-events/press-releases/detail/522/kla-announces-first-quarter-fiscal-year-2027-earnings-date",
+              "verification": "verified",
+              "checked_at": "2026-10-20T00:20:51.000Z",
+              "verified_at": "2026-10-20T00:20:51.000Z"
             }
           ]
         },
@@ -1254,7 +1448,7 @@
             "kst_datetime": "2026-10-28T21:00:00.000Z",
             "date_basis": null
           },
-          "updated_at": "2026-10-16T06:23:23.786Z",
+          "updated_at": "2026-10-20T00:32:28.600Z",
           "sources": [
             {
               "source_type": "corporate_ir",
@@ -1263,6 +1457,14 @@
               "verification": "verified",
               "checked_at": "2026-10-16T05:50:26.000Z",
               "verified_at": "2026-10-16T05:50:26.000Z"
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://ir.kla.com/news-events/press-releases/detail/522/kla-announces-first-quarter-fiscal-year-2027-earnings-date",
+              "verification": "verified",
+              "checked_at": "2026-10-20T00:20:51.000Z",
+              "verified_at": "2026-10-20T00:20:51.000Z"
             }
           ]
         }
@@ -1448,7 +1650,7 @@
             "kst_datetime": "2026-10-29T01:00:00.000Z",
             "date_basis": null
           },
-          "updated_at": "2026-10-16T06:23:23.786Z",
+          "updated_at": "2026-10-20T00:32:28.600Z",
           "sources": [
             {
               "source_type": "corporate_ir",
@@ -1457,6 +1659,14 @@
               "verification": "verified",
               "checked_at": "2026-10-16T05:49:12.000Z",
               "verified_at": "2026-10-16T05:49:12.000Z"
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://www.samsung.com/global/ir/ir-events-presentations/events/",
+              "verification": "verified",
+              "checked_at": "2026-10-20T00:20:51.000Z",
+              "verified_at": "2026-10-20T00:20:51.000Z"
             }
           ]
         }
@@ -1562,15 +1772,15 @@
           "status": "verified_confirmed",
           "schedule": {
             "precision": "date",
-            "date_start": "2026-10-30",
-            "date_end": "2026-10-30",
+            "date_start": "2026-10-29",
+            "date_end": "2026-10-29",
             "local_datetime": null,
             "time_zone": null,
             "utc_datetime": null,
             "kst_datetime": null,
-            "date_basis": "kst"
+            "date_basis": "local"
           },
-          "updated_at": "2026-10-16T06:23:23.786Z",
+          "updated_at": "2026-10-20T00:32:28.600Z",
           "sources": [
             {
               "source_type": "broker_pdf",
@@ -1587,6 +1797,14 @@
               "verification": "verified",
               "checked_at": "2026-10-16T05:50:26.000Z",
               "verified_at": "2026-10-16T05:50:26.000Z"
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://www.intel.com/content/www/us/en/newsroom/news/corporate/intel-reports-third-quarter-2026-financial-results.html",
+              "verification": "verified",
+              "checked_at": "2026-10-20T00:20:51.000Z",
+              "verified_at": "2026-10-20T00:20:51.000Z"
             }
           ]
         },
@@ -1604,7 +1822,7 @@
             "kst_datetime": "2026-10-29T21:00:00.000Z",
             "date_basis": null
           },
-          "updated_at": "2026-10-16T06:23:23.786Z",
+          "updated_at": "2026-10-20T00:32:28.600Z",
           "sources": [
             {
               "source_type": "corporate_ir",
@@ -1613,6 +1831,14 @@
               "verification": "verified",
               "checked_at": "2026-10-16T05:50:26.000Z",
               "verified_at": "2026-10-16T05:50:26.000Z"
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://www.intel.com/content/www/us/en/newsroom/news/corporate/intel-reports-third-quarter-2026-financial-results.html",
+              "verification": "verified",
+              "checked_at": "2026-10-20T00:20:51.000Z",
+              "verified_at": "2026-10-20T00:20:51.000Z"
             }
           ]
         }
@@ -1984,9 +2210,9 @@
             "time_zone": null,
             "utc_datetime": null,
             "kst_datetime": null,
-            "date_basis": "kst"
+            "date_basis": "source_printed"
           },
-          "updated_at": "2026-10-16T06:23:23.786Z",
+          "updated_at": "2026-10-20T00:32:28.600Z",
           "sources": [
             {
               "source_type": "broker_pdf",
@@ -1999,10 +2225,18 @@
             {
               "source_type": "corporate_ir",
               "label": "기업 공식 IR",
-              "url": null,
+              "url": "https://investor.entegris.com/news/news-details/2026/Entegris-to-Report-Results-for-Third-Quarter-of-2026-on-Thursday-October-29-2026/default.aspx",
               "verification": "verified",
               "checked_at": "2026-10-16T05:50:26.000Z",
               "verified_at": "2026-10-16T05:50:26.000Z"
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://investor.entegris.com/news/news-details/2026/Entegris-to-Report-Results-for-Third-Quarter-of-2026-on-Thursday-October-29-2026/default.aspx",
+              "verification": "verified",
+              "checked_at": "2026-10-20T00:16:15.000Z",
+              "verified_at": "2026-10-20T00:16:15.000Z"
             }
           ]
         },
@@ -2020,15 +2254,23 @@
             "kst_datetime": "2026-10-29T12:00:00.000Z",
             "date_basis": null
           },
-          "updated_at": "2026-10-16T06:23:23.786Z",
+          "updated_at": "2026-10-20T00:32:28.600Z",
           "sources": [
             {
               "source_type": "corporate_ir",
               "label": "기업 공식 IR",
-              "url": null,
+              "url": "https://investor.entegris.com/news/news-details/2026/Entegris-to-Report-Results-for-Third-Quarter-of-2026-on-Thursday-October-29-2026/default.aspx",
               "verification": "verified",
               "checked_at": "2026-10-16T05:50:26.000Z",
               "verified_at": "2026-10-16T05:50:26.000Z"
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://investor.entegris.com/news/news-details/2026/Entegris-to-Report-Results-for-Third-Quarter-of-2026-on-Thursday-October-29-2026/default.aspx",
+              "verification": "verified",
+              "checked_at": "2026-10-20T00:16:15.000Z",
+              "verified_at": "2026-10-20T00:16:15.000Z"
             }
           ]
         }
@@ -2142,7 +2384,7 @@
             "kst_datetime": "2026-11-05T22:00:00.000Z",
             "date_basis": null
           },
-          "updated_at": "2026-10-16T06:23:23.786Z",
+          "updated_at": "2026-10-20T00:32:28.600Z",
           "sources": [
             {
               "source_type": "corporate_ir",
@@ -2151,6 +2393,14 @@
               "verification": "verified",
               "checked_at": "2026-10-16T05:50:26.000Z",
               "verified_at": "2026-10-16T05:50:26.000Z"
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://ir.microchip.com/news-events/ir-calendar",
+              "verification": "verified",
+              "checked_at": "2026-10-20T00:16:15.000Z",
+              "verified_at": "2026-10-20T00:16:15.000Z"
             }
           ]
         }
@@ -3028,7 +3278,7 @@
             "kst_datetime": "2026-11-02T22:00:00.000Z",
             "date_basis": null
           },
-          "updated_at": "2026-10-16T06:23:23.786Z",
+          "updated_at": "2026-10-20T00:32:28.600Z",
           "sources": [
             {
               "source_type": "corporate_ir",
@@ -3037,6 +3287,14 @@
               "verification": "verified",
               "checked_at": "2026-10-16T05:50:26.000Z",
               "verified_at": "2026-10-16T05:50:26.000Z"
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://ir.latticesemi.com/news-releases/news-release-details/lattice-semiconductor-schedules-third-quarter-2026-results",
+              "verification": "verified",
+              "checked_at": "2026-10-20T00:18:50.000Z",
+              "verified_at": "2026-10-20T00:18:50.000Z"
             }
           ]
         }
@@ -3052,15 +3310,15 @@
           "status": "verified_confirmed",
           "schedule": {
             "precision": "date",
-            "date_start": "2026-11-03",
-            "date_end": "2026-11-03",
+            "date_start": "2026-11-02",
+            "date_end": "2026-11-02",
             "local_datetime": null,
             "time_zone": null,
             "utc_datetime": null,
             "kst_datetime": null,
-            "date_basis": "kst"
+            "date_basis": "source_printed"
           },
-          "updated_at": "2026-10-16T06:23:23.786Z",
+          "updated_at": "2026-10-20T00:32:28.600Z",
           "sources": [
             {
               "source_type": "broker_pdf",
@@ -3077,6 +3335,14 @@
               "verification": "verified",
               "checked_at": "2026-10-16T05:50:26.000Z",
               "verified_at": "2026-10-16T05:50:26.000Z"
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://investor.onsemi.com/news-releases/news-release-details/onsemi-announce-third-quarter-financial-results-3",
+              "verification": "verified",
+              "checked_at": "2026-10-20T00:18:50.000Z",
+              "verified_at": "2026-10-20T00:18:50.000Z"
             }
           ]
         },
@@ -3094,7 +3360,7 @@
             "kst_datetime": "2026-11-02T22:00:00.000Z",
             "date_basis": null
           },
-          "updated_at": "2026-10-16T06:23:23.786Z",
+          "updated_at": "2026-10-20T00:32:28.600Z",
           "sources": [
             {
               "source_type": "corporate_ir",
@@ -3103,6 +3369,14 @@
               "verification": "verified",
               "checked_at": "2026-10-16T05:50:26.000Z",
               "verified_at": "2026-10-16T05:50:26.000Z"
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://investor.onsemi.com/news-releases/news-release-details/onsemi-announce-third-quarter-financial-results-3",
+              "verification": "verified",
+              "checked_at": "2026-10-20T00:18:50.000Z",
+              "verified_at": "2026-10-20T00:18:50.000Z"
             }
           ]
         }
@@ -3118,15 +3392,15 @@
           "status": "verified_confirmed",
           "schedule": {
             "precision": "date",
-            "date_start": "2026-11-04",
-            "date_end": "2026-11-04",
+            "date_start": "2026-11-03",
+            "date_end": "2026-11-03",
             "local_datetime": null,
             "time_zone": null,
             "utc_datetime": null,
             "kst_datetime": null,
-            "date_basis": "kst"
+            "date_basis": "source_printed"
           },
-          "updated_at": "2026-10-16T06:23:23.786Z",
+          "updated_at": "2026-10-20T00:32:28.600Z",
           "sources": [
             {
               "source_type": "broker_pdf",
@@ -3143,6 +3417,14 @@
               "verification": "verified",
               "checked_at": "2026-10-16T05:50:26.000Z",
               "verified_at": "2026-10-16T05:50:26.000Z"
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://ir.asteralabs.com/node/9316/pdf",
+              "verification": "verified",
+              "checked_at": "2026-10-20T00:18:50.000Z",
+              "verified_at": "2026-10-20T00:18:50.000Z"
             }
           ]
         },
@@ -3160,7 +3442,7 @@
             "kst_datetime": "2026-11-03T21:30:00.000Z",
             "date_basis": null
           },
-          "updated_at": "2026-10-16T06:23:23.786Z",
+          "updated_at": "2026-10-20T00:32:28.600Z",
           "sources": [
             {
               "source_type": "corporate_ir",
@@ -3169,6 +3451,14 @@
               "verification": "verified",
               "checked_at": "2026-10-16T05:50:26.000Z",
               "verified_at": "2026-10-16T05:50:26.000Z"
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://ir.asteralabs.com/node/9316/pdf",
+              "verification": "verified",
+              "checked_at": "2026-10-20T00:18:50.000Z",
+              "verified_at": "2026-10-20T00:18:50.000Z"
             }
           ]
         }
@@ -3184,15 +3474,15 @@
           "status": "verified_confirmed",
           "schedule": {
             "precision": "date",
-            "date_start": "2026-11-04",
-            "date_end": "2026-11-04",
+            "date_start": "2026-11-03",
+            "date_end": "2026-11-03",
             "local_datetime": null,
             "time_zone": null,
             "utc_datetime": null,
             "kst_datetime": null,
-            "date_basis": "kst"
+            "date_basis": "source_printed"
           },
-          "updated_at": "2026-10-16T06:23:23.786Z",
+          "updated_at": "2026-10-20T00:32:28.600Z",
           "sources": [
             {
               "source_type": "broker_pdf",
@@ -3209,6 +3499,14 @@
               "verification": "verified",
               "checked_at": "2026-10-16T05:50:26.000Z",
               "verified_at": "2026-10-16T05:50:26.000Z"
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results",
+              "verification": "verified",
+              "checked_at": "2026-10-20T00:18:50.000Z",
+              "verified_at": "2026-10-20T00:18:50.000Z"
             }
           ]
         },
@@ -3226,7 +3524,7 @@
             "kst_datetime": "2026-11-03T22:00:00.000Z",
             "date_basis": null
           },
-          "updated_at": "2026-10-16T06:23:23.786Z",
+          "updated_at": "2026-10-20T00:32:28.600Z",
           "sources": [
             {
               "source_type": "corporate_ir",
@@ -3235,6 +3533,14 @@
               "verification": "verified",
               "checked_at": "2026-10-16T05:50:26.000Z",
               "verified_at": "2026-10-16T05:50:26.000Z"
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results",
+              "verification": "verified",
+              "checked_at": "2026-10-20T00:18:50.000Z",
+              "verified_at": "2026-10-20T00:18:50.000Z"
             }
           ]
         }
@@ -3476,15 +3782,15 @@
           "status": "verified_confirmed",
           "schedule": {
             "precision": "date",
-            "date_start": "2026-11-05",
-            "date_end": "2026-11-05",
+            "date_start": "2026-11-04",
+            "date_end": "2026-11-04",
             "local_datetime": null,
             "time_zone": null,
             "utc_datetime": null,
             "kst_datetime": null,
-            "date_basis": "kst"
+            "date_basis": "source_printed"
           },
-          "updated_at": "2026-10-16T06:23:23.786Z",
+          "updated_at": "2026-10-20T00:32:28.600Z",
           "sources": [
             {
               "source_type": "broker_pdf",
@@ -3497,10 +3803,18 @@
             {
               "source_type": "corporate_ir",
               "label": "기업 공식 IR",
-              "url": null,
+              "url": "https://newsroom.arm.com/news/arm-announces-earnings-release-date-for-second-quarter-fiscal-year-ending-2027",
               "verification": "verified",
               "checked_at": "2026-10-16T05:50:26.000Z",
               "verified_at": "2026-10-16T05:50:26.000Z"
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://newsroom.arm.com/news/arm-announces-earnings-release-date-for-second-quarter-fiscal-year-ending-2027",
+              "verification": "verified",
+              "checked_at": "2026-10-20T00:20:05.000Z",
+              "verified_at": "2026-10-20T00:20:05.000Z"
             }
           ]
         },
@@ -3518,15 +3832,23 @@
             "kst_datetime": "2026-11-04T22:00:00.000Z",
             "date_basis": null
           },
-          "updated_at": "2026-10-16T06:23:23.786Z",
+          "updated_at": "2026-10-20T00:32:28.600Z",
           "sources": [
             {
               "source_type": "corporate_ir",
               "label": "기업 공식 IR",
-              "url": null,
+              "url": "https://newsroom.arm.com/news/arm-announces-earnings-release-date-for-second-quarter-fiscal-year-ending-2027",
               "verification": "verified",
               "checked_at": "2026-10-16T05:50:26.000Z",
               "verified_at": "2026-10-16T05:50:26.000Z"
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://newsroom.arm.com/news/arm-announces-earnings-release-date-for-second-quarter-fiscal-year-ending-2027",
+              "verification": "verified",
+              "checked_at": "2026-10-20T00:20:05.000Z",
+              "verified_at": "2026-10-20T00:20:05.000Z"
             }
           ]
         }
@@ -3880,9 +4202,9 @@
             "time_zone": null,
             "utc_datetime": null,
             "kst_datetime": null,
-            "date_basis": "kst"
+            "date_basis": "source_printed"
           },
-          "updated_at": "2026-10-16T06:23:23.786Z",
+          "updated_at": "2026-10-20T00:32:28.600Z",
           "sources": [
             {
               "source_type": "broker_pdf",
@@ -3895,10 +4217,18 @@
             {
               "source_type": "corporate_ir",
               "label": "기업 공식 IR",
-              "url": null,
+              "url": "https://www.novami.com/investors/press-releases/nova-to-report-third-quarter-2026-financial-results-on-november-5/",
               "verification": "verified",
               "checked_at": "2026-10-16T05:50:26.000Z",
               "verified_at": "2026-10-16T05:50:26.000Z"
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://www.novami.com/investors/press-releases/nova-to-report-third-quarter-2026-financial-results-on-november-5/",
+              "verification": "verified",
+              "checked_at": "2026-10-20T00:20:05.000Z",
+              "verified_at": "2026-10-20T00:20:05.000Z"
             }
           ]
         },
@@ -3916,15 +4246,23 @@
             "kst_datetime": "2026-11-05T13:30:00.000Z",
             "date_basis": null
           },
-          "updated_at": "2026-10-16T06:23:23.786Z",
+          "updated_at": "2026-10-20T00:32:28.600Z",
           "sources": [
             {
               "source_type": "corporate_ir",
               "label": "기업 공식 IR",
-              "url": null,
+              "url": "https://www.novami.com/investors/press-releases/nova-to-report-third-quarter-2026-financial-results-on-november-5/",
               "verification": "verified",
               "checked_at": "2026-10-16T05:50:26.000Z",
               "verified_at": "2026-10-16T05:50:26.000Z"
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://www.novami.com/investors/press-releases/nova-to-report-third-quarter-2026-financial-results-on-november-5/",
+              "verification": "verified",
+              "checked_at": "2026-10-20T00:20:05.000Z",
+              "verified_at": "2026-10-20T00:20:05.000Z"
             }
           ]
         }
@@ -4446,15 +4784,15 @@
           "status": "verified_confirmed",
           "schedule": {
             "precision": "date",
-            "date_start": "2026-11-05",
-            "date_end": "2026-11-05",
+            "date_start": "2026-11-04",
+            "date_end": "2026-11-04",
             "local_datetime": null,
             "time_zone": null,
             "utc_datetime": null,
             "kst_datetime": null,
-            "date_basis": "kst"
+            "date_basis": "source_printed"
           },
-          "updated_at": "2026-10-16T06:23:23.786Z",
+          "updated_at": "2026-10-20T00:32:28.600Z",
           "sources": [
             {
               "source_type": "broker_pdf",
@@ -4471,6 +4809,14 @@
               "verification": "verified",
               "checked_at": "2026-10-16T05:50:26.000Z",
               "verified_at": "2026-10-16T05:50:26.000Z"
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://ir.coherent.com/node/18371/pdf",
+              "verification": "verified",
+              "checked_at": "2026-10-20T00:20:05.000Z",
+              "verified_at": "2026-10-20T00:20:05.000Z"
             }
           ]
         },
@@ -4488,7 +4834,7 @@
             "kst_datetime": "2026-11-04T21:30:00.000Z",
             "date_basis": null
           },
-          "updated_at": "2026-10-16T06:23:23.786Z",
+          "updated_at": "2026-10-20T00:32:28.600Z",
           "sources": [
             {
               "source_type": "corporate_ir",
@@ -4497,6 +4843,14 @@
               "verification": "verified",
               "checked_at": "2026-10-16T05:50:26.000Z",
               "verified_at": "2026-10-16T05:50:26.000Z"
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://ir.coherent.com/node/18371/pdf",
+              "verification": "verified",
+              "checked_at": "2026-10-20T00:20:05.000Z",
+              "verified_at": "2026-10-20T00:20:05.000Z"
             }
           ]
         }
@@ -4755,6 +5109,32 @@
               "verified_at": null
             }
           ]
+        },
+        {
+          "event_type": "conference_call",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "datetime",
+            "date_start": "2026-11-04",
+            "date_end": "2026-11-04",
+            "local_datetime": "2026-11-04T13:45:00",
+            "time_zone": "America/Los_Angeles",
+            "utc_datetime": "2026-11-04T21:45:00.000Z",
+            "kst_datetime": "2026-11-04T21:45:00.000Z",
+            "date_basis": null
+          },
+          "updated_at": "2026-10-20T00:32:28.600Z",
+          "sources": [
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://investor.qualcomm.com/news-events/investor-events/events/event-details/2026/Q4-FY26-Earnings-Conference-Call-2026-zipgVlNz63/default.aspx",
+              "verification": "verified",
+              "checked_at": "2026-10-20T00:20:05.000Z",
+              "verified_at": "2026-10-20T00:20:05.000Z"
+            }
+          ]
         }
       ]
     },
@@ -4768,15 +5148,15 @@
           "status": "verified_confirmed",
           "schedule": {
             "precision": "date",
-            "date_start": "2026-10-30",
-            "date_end": "2026-10-30",
+            "date_start": "2026-10-29",
+            "date_end": "2026-10-29",
             "local_datetime": null,
             "time_zone": null,
             "utc_datetime": null,
             "kst_datetime": null,
-            "date_basis": "kst"
+            "date_basis": "source_printed"
           },
-          "updated_at": "2026-10-16T06:23:23.786Z",
+          "updated_at": "2026-10-20T00:32:28.600Z",
           "sources": [
             {
               "source_type": "broker_pdf",
@@ -4793,6 +5173,14 @@
               "verification": "verified",
               "checked_at": "2026-10-16T05:50:26.000Z",
               "verified_at": "2026-10-16T05:50:26.000Z"
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://media.monolithicpower.com/investor-relations/press-releases/MPS_Q3_2026_Earnings_Date_Announcement.pdf",
+              "verification": "verified",
+              "checked_at": "2026-10-20T00:20:05.000Z",
+              "verified_at": "2026-10-20T00:20:05.000Z"
             }
           ]
         },
@@ -4810,7 +5198,7 @@
             "kst_datetime": "2026-10-29T21:00:00.000Z",
             "date_basis": null
           },
-          "updated_at": "2026-10-16T06:23:23.786Z",
+          "updated_at": "2026-10-20T00:32:28.600Z",
           "sources": [
             {
               "source_type": "corporate_ir",
@@ -4819,6 +5207,14 @@
               "verification": "verified",
               "checked_at": "2026-10-16T05:50:26.000Z",
               "verified_at": "2026-10-16T05:50:26.000Z"
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://media.monolithicpower.com/investor-relations/press-releases/MPS_Q3_2026_Earnings_Date_Announcement.pdf",
+              "verification": "verified",
+              "checked_at": "2026-10-20T00:20:05.000Z",
+              "verified_at": "2026-10-20T00:20:05.000Z"
             }
           ]
         }
@@ -4863,18 +5259,18 @@
         {
           "event_type": "earnings_release",
           "lifecycle": "active",
-          "status": "unscheduled",
+          "status": "verified_confirmed",
           "schedule": {
-            "precision": "unknown",
-            "date_start": null,
-            "date_end": null,
+            "precision": "date",
+            "date_start": "2026-11-05",
+            "date_end": "2026-11-05",
             "local_datetime": null,
             "time_zone": null,
             "utc_datetime": null,
             "kst_datetime": null,
-            "date_basis": null
+            "date_basis": "source_printed"
           },
-          "updated_at": "2026-10-16T06:23:23.786Z",
+          "updated_at": "2026-10-20T00:32:28.600Z",
           "sources": [
             {
               "source_type": "broker_pdf",
@@ -4883,6 +5279,14 @@
               "verification": "pending",
               "checked_at": "2026-10-16T05:42:58.930Z",
               "verified_at": null
+            },
+            {
+              "source_type": "dart",
+              "label": "DART 공시",
+              "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013900192",
+              "verification": "verified",
+              "checked_at": "2026-10-20T00:21:10.407Z",
+              "verified_at": "2026-10-20T00:21:10.407Z"
             }
           ]
         }
@@ -6009,12 +6413,44 @@
           ]
         }
       ]
+    },
+    {
+      "name": "삼성에피스홀딩스",
+      "ticker": null,
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-28",
+            "date_end": "2026-10-28",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-20T00:24:39.478Z",
+          "sources": [
+            {
+              "source_type": "kind",
+              "label": "KIND 공시",
+              "url": "https://kind.krx.co.kr/external/2026/10/14/000360/20261014000045/99833.htm",
+              "verification": "verified",
+              "checked_at": "2026-10-20T00:18:32.378Z",
+              "verified_at": "2026-10-20T00:18:32.378Z"
+            }
+          ]
+        }
+      ]
     }
   ],
-  "data_sha256": "5255106633c29fb5fabe62a176443b520acc46cab3bc5a81f344dee8f209ebc0",
+  "data_sha256": "c4e7b68318b7f98d83d52791e633491c07ba224f85072a1e7d36c3617ce7419f",
   "public_copy": {
-    "status": "succeeded",
-    "last_attempt_at": "2026-10-19T23:53:47.695Z",
+    "status": "publishing",
+    "last_attempt_at": "2026-10-20T00:33:39.801Z",
     "last_success_at": "2026-10-19T23:58:41.828Z",
     "last_verified_data_sha256": "5255106633c29fb5fabe62a176443b520acc46cab3bc5a81f344dee8f209ebc0"
   }
