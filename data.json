@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "source_read_at": "2026-10-20T00:33:43.950Z",
+  "source_read_at": "2026-10-21T00:01:42.742Z",
   "data_as_of": {
-    "latest_event_change_at": "2026-10-20T00:32:28.600Z",
-    "latest_evidence_check_at": "2026-10-20T00:21:10.407Z"
+    "latest_event_change_at": "2026-10-21T00:01:03.990Z",
+    "latest_evidence_check_at": "2026-10-20T23:58:00.000Z"
   },
   "original_source_refresh": {
     "status": "unverified",
@@ -444,15 +444,15 @@
           "status": "verified_confirmed",
           "schedule": {
             "precision": "date",
-            "date_start": "2026-10-21",
-            "date_end": "2026-10-21",
+            "date_start": "2026-10-22",
+            "date_end": "2026-10-22",
             "local_datetime": null,
             "time_zone": null,
             "utc_datetime": null,
             "kst_datetime": null,
-            "date_basis": "local"
+            "date_basis": "kst"
           },
-          "updated_at": "2026-10-20T00:32:28.600Z",
+          "updated_at": "2026-10-21T00:01:03.990Z",
           "sources": [
             {
               "source_type": "broker_pdf",
@@ -477,6 +477,14 @@
               "verification": "verified",
               "checked_at": "2026-10-20T00:20:51.000Z",
               "verified_at": "2026-10-20T00:20:51.000Z"
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://ir.tesla.com/press-release/tesla-third-quarter-2026-production-deliveries-and-deployments",
+              "verification": "verified",
+              "checked_at": "2026-10-20T23:58:00.000Z",
+              "verified_at": "2026-10-20T23:58:00.000Z"
             }
           ]
         },
@@ -1122,15 +1130,15 @@
           "status": "verified_confirmed",
           "schedule": {
             "precision": "date",
-            "date_start": "2026-10-27",
-            "date_end": "2026-10-27",
+            "date_start": "2026-10-28",
+            "date_end": "2026-10-28",
             "local_datetime": null,
             "time_zone": null,
             "utc_datetime": null,
             "kst_datetime": null,
-            "date_basis": "local"
+            "date_basis": "kst"
           },
-          "updated_at": "2026-10-20T00:32:28.600Z",
+          "updated_at": "2026-10-21T00:01:03.990Z",
           "sources": [
             {
               "source_type": "broker_pdf",
@@ -1155,6 +1163,14 @@
               "verification": "verified",
               "checked_at": "2026-10-20T00:20:51.000Z",
               "verified_at": "2026-10-20T00:20:51.000Z"
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://investors.nxp.com/node/24921/pdf",
+              "verification": "verified",
+              "checked_at": "2026-10-20T23:58:00.000Z",
+              "verified_at": "2026-10-20T23:58:00.000Z"
             }
           ]
         },
@@ -1268,15 +1284,15 @@
           "status": "verified_confirmed",
           "schedule": {
             "precision": "date",
-            "date_start": "2026-10-27",
-            "date_end": "2026-10-27",
+            "date_start": "2026-10-28",
+            "date_end": "2026-10-28",
             "local_datetime": null,
             "time_zone": null,
             "utc_datetime": null,
             "kst_datetime": null,
-            "date_basis": "local"
+            "date_basis": "kst"
           },
-          "updated_at": "2026-10-20T00:32:28.600Z",
+          "updated_at": "2026-10-21T00:01:03.990Z",
           "sources": [
             {
               "source_type": "broker_pdf",
@@ -1301,6 +1317,14 @@
               "verification": "verified",
               "checked_at": "2026-10-20T00:20:51.000Z",
               "verified_at": "2026-10-20T00:20:51.000Z"
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://investors.teradyne.com/news-events/press-releases/detail/454/teradyne-to-announce-third-quarter-2026-results",
+              "verification": "verified",
+              "checked_at": "2026-10-20T23:58:00.000Z",
+              "verified_at": "2026-10-20T23:58:00.000Z"
             }
           ]
         },
@@ -6447,10 +6471,10 @@
       ]
     }
   ],
-  "data_sha256": "c4e7b68318b7f98d83d52791e633491c07ba224f85072a1e7d36c3617ce7419f",
+  "data_sha256": "6d5f2addc426878657d8c6f438f8a432c337fa8c2609cb683e6e33284bf5fe63",
   "public_copy": {
-    "status": "succeeded",
-    "last_attempt_at": "2026-10-20T00:33:39.801Z",
+    "status": "publishing",
+    "last_attempt_at": "2026-10-21T00:01:40.708Z",
     "last_success_at": "2026-10-20T00:35:47.885Z",
     "last_verified_data_sha256": "c4e7b68318b7f98d83d52791e633491c07ba224f85072a1e7d36c3617ce7419f"
   }
