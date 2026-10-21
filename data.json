@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "source_read_at": "2026-10-21T00:01:42.742Z",
+  "source_read_at": "2026-10-21T23:30:51.990Z",
   "data_as_of": {
-    "latest_event_change_at": "2026-10-21T00:01:03.990Z",
-    "latest_evidence_check_at": "2026-10-20T23:58:00.000Z"
+    "latest_event_change_at": "2026-10-21T23:30:04.201Z",
+    "latest_evidence_check_at": "2026-10-21T23:28:49.000Z"
   },
   "original_source_refresh": {
     "status": "unverified",
@@ -452,7 +452,7 @@
             "kst_datetime": null,
             "date_basis": "kst"
           },
-          "updated_at": "2026-10-21T00:01:03.990Z",
+          "updated_at": "2026-10-21T23:30:04.201Z",
           "sources": [
             {
               "source_type": "broker_pdf",
@@ -485,6 +485,14 @@
               "verification": "verified",
               "checked_at": "2026-10-20T23:58:00.000Z",
               "verified_at": "2026-10-20T23:58:00.000Z"
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": null,
+              "verification": "verified",
+              "checked_at": "2026-10-21T23:28:49.000Z",
+              "verified_at": "2026-10-21T23:28:49.000Z"
             }
           ]
         },
@@ -1422,15 +1430,15 @@
           "status": "verified_confirmed",
           "schedule": {
             "precision": "date",
-            "date_start": "2026-10-28",
-            "date_end": "2026-10-28",
+            "date_start": "2026-10-29",
+            "date_end": "2026-10-29",
             "local_datetime": null,
             "time_zone": null,
             "utc_datetime": null,
             "kst_datetime": null,
-            "date_basis": "local"
+            "date_basis": "kst"
           },
-          "updated_at": "2026-10-20T00:32:28.600Z",
+          "updated_at": "2026-10-21T23:30:04.201Z",
           "sources": [
             {
               "source_type": "broker_pdf",
@@ -1455,6 +1463,14 @@
               "verification": "verified",
               "checked_at": "2026-10-20T00:20:51.000Z",
               "verified_at": "2026-10-20T00:20:51.000Z"
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://ir.kla.com/news-events/press-releases/detail/522/kla-announces-first-quarter-fiscal-year-2027-earnings-date",
+              "verification": "verified",
+              "checked_at": "2026-10-21T23:28:49.000Z",
+              "verified_at": "2026-10-21T23:28:49.000Z"
             }
           ]
         },
@@ -6471,10 +6487,10 @@
       ]
     }
   ],
-  "data_sha256": "6d5f2addc426878657d8c6f438f8a432c337fa8c2609cb683e6e33284bf5fe63",
+  "data_sha256": "11b9d29c69208344a3760fc69da56b92865405c47fe0c00aad3c2214b33ca810",
   "public_copy": {
-    "status": "succeeded",
-    "last_attempt_at": "2026-10-21T00:01:40.708Z",
+    "status": "publishing",
+    "last_attempt_at": "2026-10-21T23:30:47.156Z",
     "last_success_at": "2026-10-21T00:02:59.825Z",
     "last_verified_data_sha256": "6d5f2addc426878657d8c6f438f8a432c337fa8c2609cb683e6e33284bf5fe63"
   }
