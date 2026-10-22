@@ -6573,9 +6573,9 @@
   ],
   "data_sha256": "b98aff4ea6948827fb23379886b408aaefffbfe01fff581701e741f582985a2f",
   "public_copy": {
-    "status": "publishing",
+    "status": "succeeded",
     "last_attempt_at": "2026-10-22T23:46:47.982Z",
-    "last_success_at": "2026-10-21T23:33:00.005Z",
-    "last_verified_data_sha256": "11b9d29c69208344a3760fc69da56b92865405c47fe0c00aad3c2214b33ca810"
+    "last_success_at": "2026-10-22T23:47:59.453Z",
+    "last_verified_data_sha256": "b98aff4ea6948827fb23379886b408aaefffbfe01fff581701e741f582985a2f"
   }
 }
