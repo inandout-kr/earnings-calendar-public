@@ -1,23 +1,23 @@
 {
   "schema_version": 1,
-  "source_read_at": "2026-10-22T23:46:49.376Z",
+  "source_read_at": "2026-10-23T01:36:17.189Z",
   "data_as_of": {
-    "latest_event_change_at": "2026-10-22T23:46:06.062Z",
-    "latest_evidence_check_at": "2026-10-22T23:44:26.000Z"
+    "latest_event_change_at": "2026-10-23T01:35:20.077Z",
+    "latest_evidence_check_at": "2026-10-23T01:30:02.000Z"
   },
   "original_source_refresh": {
     "status": "unverified",
     "last_attempt_at": null,
     "last_success_at": null,
     "coverage": {
-      "expected_companies": 153,
+      "expected_companies": 159,
       "checked_companies": null,
       "failed_companies": null
     }
   },
   "counts": {
-    "companies": 153,
-    "events": 189
+    "companies": 159,
+    "events": 198
   },
   "companies": [
     {
@@ -3590,15 +3590,15 @@
           "status": "verified_confirmed",
           "schedule": {
             "precision": "date",
-            "date_start": "2026-11-03",
-            "date_end": "2026-11-03",
+            "date_start": "2026-11-04",
+            "date_end": "2026-11-04",
             "local_datetime": null,
             "time_zone": null,
             "utc_datetime": null,
             "kst_datetime": null,
-            "date_basis": "source_printed"
+            "date_basis": "kst"
           },
-          "updated_at": "2026-10-20T00:32:28.600Z",
+          "updated_at": "2026-10-23T01:35:20.077Z",
           "sources": [
             {
               "source_type": "broker_pdf",
@@ -3623,6 +3623,14 @@
               "verification": "verified",
               "checked_at": "2026-10-20T00:18:50.000Z",
               "verified_at": "2026-10-20T00:18:50.000Z"
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results",
+              "verification": "verified",
+              "checked_at": "2026-10-23T01:30:02.000Z",
+              "verified_at": "2026-10-23T01:30:02.000Z"
             }
           ]
         },
@@ -3898,15 +3906,15 @@
           "status": "verified_confirmed",
           "schedule": {
             "precision": "date",
-            "date_start": "2026-11-04",
-            "date_end": "2026-11-04",
+            "date_start": "2026-11-05",
+            "date_end": "2026-11-05",
             "local_datetime": null,
             "time_zone": null,
             "utc_datetime": null,
             "kst_datetime": null,
-            "date_basis": "source_printed"
+            "date_basis": "kst"
           },
-          "updated_at": "2026-10-20T00:32:28.600Z",
+          "updated_at": "2026-10-23T01:35:20.077Z",
           "sources": [
             {
               "source_type": "broker_pdf",
@@ -3931,6 +3939,14 @@
               "verification": "verified",
               "checked_at": "2026-10-20T00:20:05.000Z",
               "verified_at": "2026-10-20T00:20:05.000Z"
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://newsroom.arm.com/news/arm-announces-earnings-release-date-for-second-quarter-fiscal-year-ending-2027",
+              "verification": "verified",
+              "checked_at": "2026-10-23T01:30:02.000Z",
+              "verified_at": "2026-10-23T01:30:02.000Z"
             }
           ]
         },
@@ -5203,18 +5219,18 @@
         {
           "event_type": "earnings_release",
           "lifecycle": "active",
-          "status": "reported_confirmed_pending",
+          "status": "verified_confirmed",
           "schedule": {
             "precision": "date",
-            "date_start": "2026-11-17",
-            "date_end": "2026-11-17",
+            "date_start": "2026-11-05",
+            "date_end": "2026-11-05",
             "local_datetime": null,
             "time_zone": null,
             "utc_datetime": null,
             "kst_datetime": null,
-            "date_basis": "source_printed"
+            "date_basis": "kst"
           },
-          "updated_at": "2026-10-16T06:23:23.786Z",
+          "updated_at": "2026-10-23T01:35:20.077Z",
           "sources": [
             {
               "source_type": "broker_pdf",
@@ -5223,6 +5239,14 @@
               "verification": "pending",
               "checked_at": "2026-10-16T05:42:58.930Z",
               "verified_at": null
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": null,
+              "verification": "verified",
+              "checked_at": "2026-10-23T01:30:02.000Z",
+              "verified_at": "2026-10-23T01:30:02.000Z"
             }
           ]
         },
@@ -5240,7 +5264,7 @@
             "kst_datetime": "2026-11-04T21:45:00.000Z",
             "date_basis": null
           },
-          "updated_at": "2026-10-20T00:32:28.600Z",
+          "updated_at": "2026-10-23T01:35:20.077Z",
           "sources": [
             {
               "source_type": "corporate_ir",
@@ -5249,6 +5273,14 @@
               "verification": "verified",
               "checked_at": "2026-10-20T00:20:05.000Z",
               "verified_at": "2026-10-20T00:20:05.000Z"
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": null,
+              "verification": "verified",
+              "checked_at": "2026-10-23T01:30:02.000Z",
+              "verified_at": "2026-10-23T01:30:02.000Z"
             }
           ]
         }
@@ -6569,12 +6601,282 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Apple",
+      "ticker": "AAPL",
+      "events": [
+        {
+          "event_type": "conference_call",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "datetime",
+            "date_start": "2026-11-02",
+            "date_end": "2026-11-02",
+            "local_datetime": "2026-11-02T14:00:00",
+            "time_zone": "America/Los_Angeles",
+            "utc_datetime": "2026-11-02T22:00:00.000Z",
+            "kst_datetime": "2026-11-02T22:00:00.000Z",
+            "date_basis": null
+          },
+          "updated_at": "2026-10-23T01:35:20.077Z",
+          "sources": [
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": null,
+              "verification": "verified",
+              "checked_at": "2026-10-23T01:30:02.000Z",
+              "verified_at": "2026-10-23T01:30:02.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Microsoft",
+      "ticker": "MSFT",
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-29",
+            "date_end": "2026-10-29",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "kst"
+          },
+          "updated_at": "2026-10-23T01:35:20.077Z",
+          "sources": [
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": null,
+              "verification": "verified",
+              "checked_at": "2026-10-23T01:30:02.000Z",
+              "verified_at": "2026-10-23T01:30:02.000Z"
+            }
+          ]
+        },
+        {
+          "event_type": "conference_call",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "datetime",
+            "date_start": "2026-10-28",
+            "date_end": "2026-10-28",
+            "local_datetime": "2026-10-28T14:30:00",
+            "time_zone": "America/Los_Angeles",
+            "utc_datetime": "2026-10-28T21:30:00.000Z",
+            "kst_datetime": "2026-10-28T21:30:00.000Z",
+            "date_basis": null
+          },
+          "updated_at": "2026-10-23T01:35:20.077Z",
+          "sources": [
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": null,
+              "verification": "verified",
+              "checked_at": "2026-10-23T01:30:02.000Z",
+              "verified_at": "2026-10-23T01:30:02.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Alphabet",
+      "ticker": "GOOGL",
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-28",
+            "date_end": "2026-10-28",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-23T01:35:20.077Z",
+          "sources": [
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": null,
+              "verification": "verified",
+              "checked_at": "2026-10-23T01:30:02.000Z",
+              "verified_at": "2026-10-23T01:30:02.000Z"
+            }
+          ]
+        },
+        {
+          "event_type": "conference_call",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "datetime",
+            "date_start": "2026-10-28",
+            "date_end": "2026-10-28",
+            "local_datetime": "2026-10-28T13:30:00",
+            "time_zone": "America/Los_Angeles",
+            "utc_datetime": "2026-10-28T20:30:00.000Z",
+            "kst_datetime": "2026-10-28T20:30:00.000Z",
+            "date_basis": null
+          },
+          "updated_at": "2026-10-23T01:35:20.077Z",
+          "sources": [
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": null,
+              "verification": "verified",
+              "checked_at": "2026-10-23T01:30:02.000Z",
+              "verified_at": "2026-10-23T01:30:02.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Amazon",
+      "ticker": "AMZN",
+      "events": [
+        {
+          "event_type": "conference_call",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "datetime",
+            "date_start": "2026-10-29",
+            "date_end": "2026-10-29",
+            "local_datetime": "2026-10-29T14:00:00",
+            "time_zone": "America/Los_Angeles",
+            "utc_datetime": "2026-10-29T21:00:00.000Z",
+            "kst_datetime": "2026-10-29T21:00:00.000Z",
+            "date_basis": null
+          },
+          "updated_at": "2026-10-23T01:35:20.077Z",
+          "sources": [
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": null,
+              "verification": "verified",
+              "checked_at": "2026-10-23T01:30:02.000Z",
+              "verified_at": "2026-10-23T01:30:02.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Meta Platforms",
+      "ticker": "META",
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-10-22",
+            "date_end": "2026-10-22",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "kst"
+          },
+          "updated_at": "2026-10-23T01:35:20.077Z",
+          "sources": [
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": null,
+              "verification": "verified",
+              "checked_at": "2026-10-23T01:30:02.000Z",
+              "verified_at": "2026-10-23T01:30:02.000Z"
+            }
+          ]
+        },
+        {
+          "event_type": "conference_call",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "datetime",
+            "date_start": "2026-10-21",
+            "date_end": "2026-10-21",
+            "local_datetime": "2026-10-21T13:30:00",
+            "time_zone": "America/Los_Angeles",
+            "utc_datetime": "2026-10-21T20:30:00.000Z",
+            "kst_datetime": "2026-10-21T20:30:00.000Z",
+            "date_basis": null
+          },
+          "updated_at": "2026-10-23T01:35:20.077Z",
+          "sources": [
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": null,
+              "verification": "verified",
+              "checked_at": "2026-10-23T01:30:02.000Z",
+              "verified_at": "2026-10-23T01:30:02.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA",
+      "events": [
+        {
+          "event_type": "earnings_release",
+          "lifecycle": "active",
+          "status": "unscheduled",
+          "schedule": {
+            "precision": "unknown",
+            "date_start": null,
+            "date_end": null,
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": null
+          },
+          "updated_at": "2026-10-23T01:35:20.077Z",
+          "sources": [
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": null,
+              "verification": "pending",
+              "checked_at": "2026-10-23T01:30:02.000Z",
+              "verified_at": null
+            }
+          ]
+        }
+      ]
     }
   ],
-  "data_sha256": "b98aff4ea6948827fb23379886b408aaefffbfe01fff581701e741f582985a2f",
+  "data_sha256": "4fc1df5590d1fb0c15fa684cd11efdefb1e93eda0f61ed6ef447bc1d93b8f922",
   "public_copy": {
-    "status": "succeeded",
-    "last_attempt_at": "2026-10-22T23:46:47.982Z",
+    "status": "publishing",
+    "last_attempt_at": "2026-10-23T01:36:14.796Z",
     "last_success_at": "2026-10-22T23:47:59.453Z",
     "last_verified_data_sha256": "b98aff4ea6948827fb23379886b408aaefffbfe01fff581701e741f582985a2f"
   }

@@ -10,8 +10,6 @@
 <a class="skip-link" href="#calendar">캘린더로 바로가기</a>
 <header class="app-header"><div class="header-inner"><div class="brand"><span class="brand-mark" aria-hidden="true">▦</span><div class="brand-name">실적발표 일정</div></div><div class="header-right"><span class="public-label">공개용 일정</span><span id="today-label" class="header-clock">KST</span></div></div></header>
 <main class="workspace">
-<section class="intro"><div><h1>실적발표 일정</h1><p>추적 기업 <strong id="company-count">—</strong>개 · 전체 일정 기록 <strong id="event-count">—</strong>건 · 현재 <span id="active-count">—</span>건 · 특정일 미확정 기업 <span id="unknown-count">—</span>개</p></div><button id="retry" class="button" type="button">↻ 일정 다시 조회</button></section>
-<section class="freshness" aria-label="데이터 기준과 공개 반영 상태"><div class="freshness-line"><span>원본 전체 갱신</span><strong id="origin-status">확인 중</strong><small id="origin-success">성공 시각 확인 중</small><small id="origin-attempt"></small></div><div class="freshness-line"><span>공개 사본</span><strong id="copy-status">불러오는 중</strong><small id="copy-success">성공 시각 확인 중</small><small id="copy-attempt"></small></div><details><summary>데이터 기준시각 자세히</summary><div class="freshness-times"><p>최신 근거 확인 <strong id="evidence-time">—</strong></p><p>최근 일정 변경 <strong id="change-time">—</strong></p><p>원본 조회 <strong id="read-time">—</strong></p></div><p class="time-note">갱신 시각은 KST입니다. 원본 조회·공개 복사는 전체 기업 일정의 갱신 성공을 뜻하지 않습니다.</p></details></section>
 <div id="notice" class="alert" role="status" aria-live="polite" hidden></div>
 <div class="workbench">
 <section id="calendar" class="calendar-panel" aria-label="실적 발표 캘린더" tabindex="-1">
@@ -22,9 +20,8 @@
 <section id="range-section" class="range-section" hidden><h3>주간·기간으로 알려진 일정</h3><p>개별 발표일이 확정되지 않아 특정 날짜 칸에 배치하지 않습니다.</p><div id="range-list" class="range-list"></div></section>
 <div class="legend"><span><i></i>공식확정</span><span><i class="pending"></i>보고된 확정 · 공식 확인대기</span><span><i class="estimated"></i>추정</span><span><i class="unknown"></i>미정·충돌은 오른쪽에 별도 표시</span></div>
 </section>
-<aside class="side-column" aria-label="확인이 필요한 일정"><section class="side-card verification-note"><div class="side-title"><h2>확인 기준</h2></div><p class="side-note">공식 근거 확인과 자료의 확정 주장을 구분합니다. 출처에 날짜만 표기된 일정은 시간·시간대를 추정하지 않습니다.</p></section><section class="side-card"><div class="side-title"><h2>날짜·범위 미확정</h2><span id="undated-count" class="count">—</span></div><p class="side-note">월 범위 밖에서도 계속 표시합니다.</p><div id="undated-list" class="side-list"></div></section><section class="side-card"><div class="side-title"><h2>근거 충돌</h2><span id="conflict-count" class="count">—</span></div><p class="side-note">특정 날짜로 확정하지 않고 함께 보존합니다.</p><div id="conflict-list" class="side-list"></div></section></aside>
+<aside class="side-column" aria-label="확인이 필요한 일정"><section class="side-card"><div class="side-title"><h2>날짜·범위 미확정</h2><span id="undated-count" class="count">—</span></div><p class="side-note">월 범위 밖에서도 계속 표시합니다.</p><div id="undated-list" class="side-list"></div></section><section class="side-card"><div class="side-title"><h2>근거 충돌</h2><span id="conflict-count" class="count">—</span></div><p class="side-note">특정 날짜로 확정하지 않고 함께 보존합니다.</p><div id="conflict-list" class="side-list"></div></section></aside>
 </div>
-<footer class="footer"><p>공개 기업 일정과 출처를 제공하는 읽기 전용 화면입니다.</p><p>일정은 변경될 수 있습니다. 연결된 공식 출처를 확인하세요.</p></footer>
 </main>
 <dialog id="event-dialog" class="event-dialog" aria-labelledby="event-detail-title"><div class="dialog-heading"><div><span class="eyebrow">일정 근거</span><h2 id="event-detail-title"></h2><p id="event-detail-caption"></p></div><button id="close-dialog" class="icon-button" aria-label="상세 닫기" type="button">×</button></div><div id="event-detail-content" class="dialog-content"></div></dialog>
 </body></html>

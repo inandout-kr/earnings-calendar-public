@@ -11,8 +11,6 @@
   const refreshStates = ['unverified', 'publishing', 'succeeded', 'partial_failure', 'failed'];
   let snapshot = null;
   let busy = false;
-  let requestFailure = null;
-  let requestAt = null;
   let monthCursor = kstDay(new Date()).slice(0, 7);
   let view = 'month';
   function validate(data) {
@@ -54,51 +52,6 @@
     const sources = company.events.flatMap((event) => event.sources);
     const latest = (items) => items.flatMap((source) => [source.checked_at, source.verified_at]).filter(Boolean).sort((a, b) => Date.parse(b) - Date.parse(a))[0] || null;
     return { official: latest(sources.filter((source) => source.verification === 'verified' && ['corporate_ir', 'kind', 'dart', 'exchange'].includes(source.source_type))), reference: latest(sources) };
-  }
-  function companyCoverage(data) {
-    const cutoff = Date.now() - 24 * 3600 * 1000;
-    const confirmations = data.companies.map(companyConfirmation);
-    const recent = confirmations.filter((item) => item.official && Date.parse(item.official) >= cutoff && Date.parse(item.official) <= Date.now()).length;
-    const missing = confirmations.filter((item) => !item.official).length;
-    return { recent, missing, older: confirmations.length - recent - missing, total: confirmations.length };
-  }
-  function metadata() {
-    const data = snapshot, origin = data.original_source_refresh, copy = data.public_copy;
-    const originLabels = { unverified: '전체 기업 갱신 성공 미확인', publishing: '전체 기업 갱신 진행 중', succeeded: '전체 기업 갱신 성공', partial_failure: '전체 기업 갱신 일부 실패', failed: '전체 기업 갱신 실패' };
-    text('origin-status', originLabels[origin.status]);
-    $('origin-status').closest('.freshness-line').classList.toggle('success', origin.status === 'succeeded');
-    text('origin-success', '마지막 전체 성공: ' + timestamp(origin.last_success_at));
-    const checked = origin.coverage.checked_companies, failed = origin.coverage.failed_companies;
-    text('origin-attempt', '마지막 시도: ' + timestamp(origin.last_attempt_at) + (checked === null ? ' · 검증 범위 미확인' : ` · ${checked}/${origin.coverage.expected_companies}기업 확인` + (failed === null ? '' : ` · 실패 ${failed}기업`)));
-    const copyLabels = { unverified: '공개 반영 성공 미확인', publishing: '공개 반영 확인 중', succeeded: '공개 사본 반영 성공', partial_failure: '공개 반영 일부 실패', failed: '공개 반영 실패' };
-    text('copy-status', requestFailure ? '불러오기 실패 · 직전 사본 유지' : copyLabels[copy.status]);
-    $('copy-status').closest('.freshness-line').classList.toggle('error', !!requestFailure || copy.status === 'failed');
-    $('copy-status').closest('.freshness-line').classList.toggle('success', !requestFailure && copy.status === 'succeeded');
-    text('copy-success', '마지막 공개 반영 성공: ' + timestamp(copy.last_success_at));
-    text('copy-attempt', '반영 시도: ' + timestamp(copy.last_attempt_at) + ' · 화면 요청' + (requestFailure ? ' 실패: ' : ': ') + timestamp(requestAt));
-    text('evidence-time', timestamp(data.data_as_of.latest_evidence_check_at) + ' (보유 근거 중 최대시각)');
-    text('change-time', timestamp(data.data_as_of.latest_event_change_at));
-    text('read-time', timestamp(data.source_read_at));
-    const events = data.companies.flatMap((c) => c.events);
-    text('company-count', data.counts.companies.toLocaleString('ko-KR'));
-    text('event-count', data.counts.events.toLocaleString('ko-KR'));
-    text('active-count', events.filter((e) => e.lifecycle === 'active').length.toLocaleString('ko-KR'));
-    text('unknown-count', data.companies.filter((c) => !c.events.some((e) => e.lifecycle === 'active' && knownDate(e))).length.toLocaleString('ko-KR'));
-    text('superseded-count', `(${events.filter((e) => e.lifecycle === 'superseded').length})`);
-    const coverage = companyCoverage(data);
-    let coverageNote = $('company-coverage');
-    if (!coverageNote) { coverageNote = element('p', 'coverage-note'); coverageNote.id = 'company-coverage'; $('origin-status').closest('.freshness').append(coverageNote); }
-    coverageNote.textContent = `최근 24시간 공식근거가 확인된 기업 ${coverage.recent}/${coverage.total} · 24시간 이전 ${coverage.older} · 공식근거 미확인 ${coverage.missing}. 일부 일정의 근거 확인 수이며 전체 기업 조사 완료를 뜻하지 않습니다. 최대시각은 현재 보유한 단일 근거의 최신 기록입니다.`;
-    const latest = data.data_as_of.latest_evidence_check_at;
-    const stale = !latest || Date.now() - Date.parse(latest) > 36 * 3600 * 1000;
-    const messages = [];
-    if (requestFailure) messages.push('공개 데이터를 다시 불러오지 못했습니다. 직전에 불러온 사본을 유지하고 있습니다. 다시 불러오기를 시도하세요.');
-    if (origin.status !== 'succeeded') messages.push('전체 기업의 최신 갱신 성공은 확인되지 않았습니다. 아래 시각은 마지막으로 남아 있는 일정 변경·근거 확인 기록입니다.');
-    if (coverage.older || coverage.missing) messages.push(`기업별 확인 범위: ${coverage.older}기업은 공식근거 확인이 24시간 이전이며 ${coverage.missing}기업은 확인된 공식근거 시각이 없습니다. 일부 새 근거가 추가되어도 나머지 기업의 최신성이 확인되는 것은 아닙니다.`);
-    if (stale) messages.push(latest ? '오래된 데이터: 최신 근거 확인 이후 36시간이 지났습니다. 현재 일정으로 확정하기 전에 출처를 확인하세요.' : '근거 확인 시각이 없어 데이터의 최신 여부를 확인할 수 없습니다.');
-    $('notice').hidden = messages.length === 0;
-    $('notice').classList.toggle('error', !!requestFailure);
-    text('notice', messages.join(' '));
   }
   function kstDay(value) {
     const parts = new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Seoul', year: 'numeric', month: '2-digit', day: '2-digit' }).formatToParts(new Date(value));
@@ -175,7 +128,7 @@
   }
   function populateCompanies() {
     const selected = $('company-filter').value;
-    const options = [element('option', '', '모든 기업 (' + snapshot.counts.companies + ')')]; options[0].value = 'all';
+    const options = [element('option', '', '모든 기업')]; options[0].value = 'all';
     [...snapshot.companies].sort((a, b) => a.name.localeCompare(b.name, 'ko-KR')).forEach((company) => { const option = element('option', '', company.name + (company.ticker ? ' · ' + company.ticker : '')); option.value = company.name; options.push(option); });
     $('company-filter').replaceChildren(...options);
     $('company-filter').value = options.some((option) => option.value === selected) ? selected : 'all';
@@ -193,7 +146,7 @@
     const noEvents = status === 'all' ? companies.filter((company) => !company.events.length) : [];
     text('month-label', +monthCursor.slice(0, 4) + '년 ' + +monthCursor.slice(5, 7) + '월');
     text('today-label', dateText(kstDay(new Date())) + ' KST');
-    text('result-count', `이달 ${scheduled.length}건 · 기간 ${ranges.length}건 / 전체 ${snapshot.counts.companies}기업 ${snapshot.counts.events}기록`);
+    text('result-count', `이달 ${scheduled.length}건 · 기간 ${ranges.length}건 `);
     const content = document.createDocumentFragment();
     if (view === 'month') {
       const weekdays = element('div', 'month-grid'); ['일', '월', '화', '수', '목', '금', '토'].forEach((day) => weekdays.append(element('div', 'weekday', day + '요일'))); content.append(weekdays);
@@ -232,21 +185,17 @@
   }
   async function load() {
     if (busy) return;
-    busy = true; requestAt = new Date().toISOString(); $('retry').disabled = true; $('results').setAttribute('aria-busy', 'true');
+    busy = true; $('results').setAttribute('aria-busy', 'true');
     try {
       const response = await fetch('./data.json', { cache: 'no-store', credentials: 'omit', redirect: 'error', signal: AbortSignal.timeout(20000) });
       if (!response.ok) throw new Error('http');
       const next = validate(await response.json());
-      snapshot = next; requestFailure = null; populateCompanies(); metadata(); render();
+      snapshot = next; $('notice').hidden = true; text('superseded-count', '(' + snapshot.companies.flatMap(c => c.events).filter(e => e.lifecycle === 'superseded').length + ')'); populateCompanies(); render();
     } catch {
-      requestFailure = true;
-      if (snapshot) metadata(); else {
-        text('copy-status', '공개 데이터 불러오기 실패'); text('copy-success', '마지막 공개 반영 성공: 확인되지 않음'); text('copy-attempt', '화면 요청 실패: ' + timestamp(requestAt));
-        text('origin-status', '전체 기업 갱신 성공 미확인'); text('origin-success', '마지막 전체 성공: 확인되지 않음');
-        $('notice').hidden = false; $('notice').classList.add('error'); text('notice', '공개 데이터를 불러오거나 형식을 검증하지 못했습니다. 다시 불러오기를 시도하세요.');
-        $('results').replaceChildren(element('p', 'empty-state', '검증된 공개 일정이 아직 없습니다. 다시 불러오기로 재시도할 수 있습니다.'));
-      }
-    } finally { busy = false; $('retry').disabled = false; $('results').setAttribute('aria-busy', 'false'); }
+      $('notice').hidden = false; $('notice').classList.add('error');
+      text('notice', snapshot ? '공개 일정을 불러오지 못해 이전 화면을 유지합니다. 페이지를 새로고침해 주세요.' : '공개 일정을 불러오지 못했습니다. 페이지를 새로고침해 주세요.');
+      if (!snapshot) $('results').replaceChildren(element('p', 'empty-state', '일정을 불러올 수 없습니다.'));
+    } finally { busy = false; $('results').setAttribute('aria-busy', 'false'); }
   }
   function setMonth(delta) {
     const date = new Date(monthCursor + '-01T12:00:00Z'); date.setUTCMonth(date.getUTCMonth() + delta); monthCursor = date.toISOString().slice(0, 7); render();
@@ -259,7 +208,5 @@
   ['month', 'list'].forEach((value) => $(value + '-view').addEventListener('click', () => { view = value; ['month', 'list'].forEach((item) => $(item + '-view').setAttribute('aria-pressed', String(item === value))); render(); }));
   $('close-dialog').addEventListener('click', () => $('event-dialog').close());
   $('event-dialog').addEventListener('click', (event) => { if (event.target === $('event-dialog')) $('event-dialog').close(); });
-  $('retry').addEventListener('click', load);
-  document.addEventListener('visibilitychange', () => { if (!document.hidden && snapshot) metadata(); });
   load();
 })();
