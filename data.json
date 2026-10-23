@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "source_read_at": "2026-10-23T01:36:17.189Z",
+  "source_read_at": "2026-10-23T01:46:15.429Z",
   "data_as_of": {
-    "latest_event_change_at": "2026-10-23T01:35:20.077Z",
-    "latest_evidence_check_at": "2026-10-23T01:30:02.000Z"
+    "latest_event_change_at": "2026-10-23T01:44:58.002Z",
+    "latest_evidence_check_at": "2026-10-23T01:44:13.000Z"
   },
   "original_source_refresh": {
     "status": "unverified",
@@ -17,7 +17,7 @@
   },
   "counts": {
     "companies": 159,
-    "events": 198
+    "events": 199
   },
   "companies": [
     {
@@ -6869,14 +6869,40 @@
               "verified_at": null
             }
           ]
+        },
+        {
+          "event_type": "conference_call",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "date",
+            "date_start": "2026-11-17",
+            "date_end": "2026-11-17",
+            "local_datetime": null,
+            "time_zone": null,
+            "utc_datetime": null,
+            "kst_datetime": null,
+            "date_basis": "source_printed"
+          },
+          "updated_at": "2026-10-23T01:44:58.002Z",
+          "sources": [
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": null,
+              "verification": "verified",
+              "checked_at": "2026-10-23T01:44:13.000Z",
+              "verified_at": "2026-10-23T01:44:13.000Z"
+            }
+          ]
         }
       ]
     }
   ],
-  "data_sha256": "4fc1df5590d1fb0c15fa684cd11efdefb1e93eda0f61ed6ef447bc1d93b8f922",
+  "data_sha256": "3242ab086ee7e000e54ecae1c734ff89f4fc7cc168dc68ba77f26d255a366836",
   "public_copy": {
-    "status": "succeeded",
-    "last_attempt_at": "2026-10-23T01:36:14.796Z",
+    "status": "publishing",
+    "last_attempt_at": "2026-10-23T01:46:09.733Z",
     "last_success_at": "2026-10-23T01:38:38.546Z",
     "last_verified_data_sha256": "4fc1df5590d1fb0c15fa684cd11efdefb1e93eda0f61ed6ef447bc1d93b8f922"
   }
