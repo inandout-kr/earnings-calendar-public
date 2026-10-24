@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_read_at": "2026-10-23T01:46:15.429Z",
+  "source_read_at": "2026-10-24T00:07:05.032Z",
   "data_as_of": {
     "latest_event_change_at": "2026-10-23T01:44:58.002Z",
     "latest_evidence_check_at": "2026-10-23T01:44:13.000Z"
@@ -6901,8 +6901,8 @@
   ],
   "data_sha256": "3242ab086ee7e000e54ecae1c734ff89f4fc7cc168dc68ba77f26d255a366836",
   "public_copy": {
-    "status": "succeeded",
-    "last_attempt_at": "2026-10-23T01:46:09.733Z",
+    "status": "publishing",
+    "last_attempt_at": "2026-10-24T00:06:59.839Z",
     "last_success_at": "2026-10-23T01:48:01.944Z",
     "last_verified_data_sha256": "3242ab086ee7e000e54ecae1c734ff89f4fc7cc168dc68ba77f26d255a366836"
   }
