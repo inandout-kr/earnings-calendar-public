@@ -6901,9 +6901,9 @@
   ],
   "data_sha256": "3242ab086ee7e000e54ecae1c734ff89f4fc7cc168dc68ba77f26d255a366836",
   "public_copy": {
-    "status": "publishing",
+    "status": "succeeded",
     "last_attempt_at": "2026-10-24T23:21:01.047Z",
-    "last_success_at": "2026-10-24T00:08:32.890Z",
+    "last_success_at": "2026-10-24T23:22:33.608Z",
     "last_verified_data_sha256": "3242ab086ee7e000e54ecae1c734ff89f4fc7cc168dc68ba77f26d255a366836"
   }
 }
