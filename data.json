@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "source_read_at": "2026-10-25T23:49:22.779Z",
+  "source_read_at": "2026-10-26T23:47:27.006Z",
   "data_as_of": {
-    "latest_event_change_at": "2026-10-23T01:44:58.002Z",
-    "latest_evidence_check_at": "2026-10-23T01:44:13.000Z"
+    "latest_event_change_at": "2026-10-26T23:45:52.377Z",
+    "latest_evidence_check_at": "2026-10-26T23:40:38.185Z"
   },
   "original_source_refresh": {
     "status": "unverified",
@@ -3426,15 +3426,15 @@
           "status": "verified_confirmed",
           "schedule": {
             "precision": "date",
-            "date_start": "2026-11-02",
-            "date_end": "2026-11-02",
+            "date_start": "2026-11-03",
+            "date_end": "2026-11-03",
             "local_datetime": null,
             "time_zone": null,
             "utc_datetime": null,
             "kst_datetime": null,
-            "date_basis": "source_printed"
+            "date_basis": "kst"
           },
-          "updated_at": "2026-10-20T00:32:28.600Z",
+          "updated_at": "2026-10-26T23:45:52.377Z",
           "sources": [
             {
               "source_type": "broker_pdf",
@@ -3459,6 +3459,14 @@
               "verification": "verified",
               "checked_at": "2026-10-20T00:18:50.000Z",
               "verified_at": "2026-10-20T00:18:50.000Z"
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://investor.onsemi.com/news-releases/news-release-details/onsemi-announce-third-quarter-financial-results-3",
+              "verification": "verified",
+              "checked_at": "2026-10-26T23:40:38.185Z",
+              "verified_at": "2026-10-26T23:40:38.185Z"
             }
           ]
         },
@@ -6899,10 +6907,10 @@
       ]
     }
   ],
-  "data_sha256": "3242ab086ee7e000e54ecae1c734ff89f4fc7cc168dc68ba77f26d255a366836",
+  "data_sha256": "3c0cdd59dc0f83bcea0a80b9b20040036e1dddd30feddea415ebeae934008952",
   "public_copy": {
-    "status": "succeeded",
-    "last_attempt_at": "2026-10-25T23:49:18.178Z",
+    "status": "publishing",
+    "last_attempt_at": "2026-10-26T23:47:22.491Z",
     "last_success_at": "2026-10-25T23:50:14.686Z",
     "last_verified_data_sha256": "3242ab086ee7e000e54ecae1c734ff89f4fc7cc168dc68ba77f26d255a366836"
   }
