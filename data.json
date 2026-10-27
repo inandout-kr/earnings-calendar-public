@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "source_read_at": "2026-10-26T23:47:27.006Z",
+  "source_read_at": "2026-10-27T23:41:07.412Z",
   "data_as_of": {
-    "latest_event_change_at": "2026-10-26T23:45:52.377Z",
-    "latest_evidence_check_at": "2026-10-26T23:40:38.185Z"
+    "latest_event_change_at": "2026-10-27T23:40:36.128Z",
+    "latest_evidence_check_at": "2026-10-27T23:29:23.360Z"
   },
   "original_source_refresh": {
     "status": "unverified",
@@ -1137,16 +1137,16 @@
           "lifecycle": "active",
           "status": "verified_confirmed",
           "schedule": {
-            "precision": "date",
-            "date_start": "2026-10-28",
-            "date_end": "2026-10-28",
-            "local_datetime": null,
-            "time_zone": null,
-            "utc_datetime": null,
-            "kst_datetime": null,
-            "date_basis": "kst"
+            "precision": "datetime",
+            "date_start": "2026-10-27",
+            "date_end": "2026-10-27",
+            "local_datetime": "2026-10-27T16:10:00",
+            "time_zone": "America/New_York",
+            "utc_datetime": "2026-10-27T20:10:00.000Z",
+            "kst_datetime": "2026-10-27T20:10:00.000Z",
+            "date_basis": null
           },
-          "updated_at": "2026-10-21T00:01:03.990Z",
+          "updated_at": "2026-10-27T23:40:36.128Z",
           "sources": [
             {
               "source_type": "broker_pdf",
@@ -1179,6 +1179,14 @@
               "verification": "verified",
               "checked_at": "2026-10-20T23:58:00.000Z",
               "verified_at": "2026-10-20T23:58:00.000Z"
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": null,
+              "verification": "verified",
+              "checked_at": "2026-10-27T23:29:22.947Z",
+              "verified_at": "2026-10-27T23:29:22.947Z"
             }
           ]
         },
@@ -1291,16 +1299,16 @@
           "lifecycle": "active",
           "status": "verified_confirmed",
           "schedule": {
-            "precision": "date",
-            "date_start": "2026-10-28",
-            "date_end": "2026-10-28",
-            "local_datetime": null,
-            "time_zone": null,
-            "utc_datetime": null,
-            "kst_datetime": null,
-            "date_basis": "kst"
+            "precision": "datetime",
+            "date_start": "2026-10-27",
+            "date_end": "2026-10-27",
+            "local_datetime": "2026-10-27T16:30:00",
+            "time_zone": "America/New_York",
+            "utc_datetime": "2026-10-27T20:30:00.000Z",
+            "kst_datetime": "2026-10-27T20:30:00.000Z",
+            "date_basis": null
           },
-          "updated_at": "2026-10-21T00:01:03.990Z",
+          "updated_at": "2026-10-27T23:40:36.128Z",
           "sources": [
             {
               "source_type": "broker_pdf",
@@ -1333,6 +1341,14 @@
               "verification": "verified",
               "checked_at": "2026-10-20T23:58:00.000Z",
               "verified_at": "2026-10-20T23:58:00.000Z"
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": null,
+              "verification": "verified",
+              "checked_at": "2026-10-27T23:29:23.360Z",
+              "verified_at": "2026-10-27T23:29:23.360Z"
             }
           ]
         },
@@ -3516,15 +3532,15 @@
           "status": "verified_confirmed",
           "schedule": {
             "precision": "date",
-            "date_start": "2026-11-03",
-            "date_end": "2026-11-03",
+            "date_start": "2026-11-04",
+            "date_end": "2026-11-04",
             "local_datetime": null,
             "time_zone": null,
             "utc_datetime": null,
             "kst_datetime": null,
-            "date_basis": "source_printed"
+            "date_basis": "kst"
           },
-          "updated_at": "2026-10-20T00:32:28.600Z",
+          "updated_at": "2026-10-27T23:40:36.128Z",
           "sources": [
             {
               "source_type": "broker_pdf",
@@ -3549,6 +3565,14 @@
               "verification": "verified",
               "checked_at": "2026-10-20T00:18:50.000Z",
               "verified_at": "2026-10-20T00:18:50.000Z"
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": "https://ir.asteralabs.com/node/9316/pdf",
+              "verification": "verified",
+              "checked_at": "2026-10-27T23:28:33.105Z",
+              "verified_at": "2026-10-27T23:28:33.105Z"
             }
           ]
         },
@@ -3711,18 +3735,18 @@
         {
           "event_type": "conference_call",
           "lifecycle": "active",
-          "status": "reported_confirmed_pending",
+          "status": "verified_confirmed",
           "schedule": {
-            "precision": "date",
+            "precision": "datetime",
             "date_start": "2026-11-03",
             "date_end": "2026-11-03",
-            "local_datetime": null,
-            "time_zone": null,
-            "utc_datetime": null,
-            "kst_datetime": null,
-            "date_basis": "kst"
+            "local_datetime": "2026-11-03T10:00:00",
+            "time_zone": "Asia/Seoul",
+            "utc_datetime": "2026-11-03T01:00:00.000Z",
+            "kst_datetime": "2026-11-03T01:00:00.000Z",
+            "date_basis": null
           },
-          "updated_at": "2026-10-16T06:23:23.786Z",
+          "updated_at": "2026-10-27T23:40:36.128Z",
           "sources": [
             {
               "source_type": "manual",
@@ -3731,6 +3755,14 @@
               "verification": "pending",
               "checked_at": "2026-10-16T05:48:00.000Z",
               "verified_at": null
+            },
+            {
+              "source_type": "kind",
+              "label": "KIND 공시",
+              "url": null,
+              "verification": "verified",
+              "checked_at": "2026-10-27T23:28:35.245Z",
+              "verified_at": "2026-10-27T23:28:35.245Z"
             }
           ]
         }
@@ -6907,10 +6939,10 @@
       ]
     }
   ],
-  "data_sha256": "3c0cdd59dc0f83bcea0a80b9b20040036e1dddd30feddea415ebeae934008952",
+  "data_sha256": "d1e1d4c647f77856609ac5414b335f639828b04f422d91b4559212e5d5972a84",
   "public_copy": {
-    "status": "succeeded",
-    "last_attempt_at": "2026-10-26T23:47:22.491Z",
+    "status": "publishing",
+    "last_attempt_at": "2026-10-27T23:41:05.398Z",
     "last_success_at": "2026-10-26T23:48:33.735Z",
     "last_verified_data_sha256": "3c0cdd59dc0f83bcea0a80b9b20040036e1dddd30feddea415ebeae934008952"
   }
