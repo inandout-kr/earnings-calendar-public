@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "source_read_at": "2026-10-29T00:02:34.975Z",
+  "source_read_at": "2026-10-29T23:27:20.609Z",
   "data_as_of": {
-    "latest_event_change_at": "2026-10-29T00:01:39.760Z",
-    "latest_evidence_check_at": "2026-10-28T23:54:13.867Z"
+    "latest_event_change_at": "2026-10-29T23:26:19.053Z",
+    "latest_evidence_check_at": "2026-10-29T23:21:27.260Z"
   },
   "original_source_refresh": {
     "status": "unverified",
@@ -17,7 +17,7 @@
   },
   "counts": {
     "companies": 159,
-    "events": 199
+    "events": 200
   },
   "companies": [
     {
@@ -1835,16 +1835,16 @@
           "lifecycle": "active",
           "status": "verified_confirmed",
           "schedule": {
-            "precision": "date",
-            "date_start": "2026-10-30",
-            "date_end": "2026-10-30",
-            "local_datetime": null,
-            "time_zone": null,
-            "utc_datetime": null,
-            "kst_datetime": null,
-            "date_basis": "kst"
+            "precision": "datetime",
+            "date_start": "2026-10-29",
+            "date_end": "2026-10-29",
+            "local_datetime": "2026-10-29T16:01:00",
+            "time_zone": "America/New_York",
+            "utc_datetime": "2026-10-29T20:01:00.000Z",
+            "kst_datetime": "2026-10-29T20:01:00.000Z",
+            "date_basis": null
           },
-          "updated_at": "2026-10-22T23:46:06.062Z",
+          "updated_at": "2026-10-29T23:26:19.053Z",
           "sources": [
             {
               "source_type": "broker_pdf",
@@ -1877,6 +1877,14 @@
               "verification": "verified",
               "checked_at": "2026-10-22T23:44:26.000Z",
               "verified_at": "2026-10-22T23:44:26.000Z"
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": null,
+              "verification": "verified",
+              "checked_at": "2026-10-29T23:18:22.621Z",
+              "verified_at": "2026-10-29T23:18:22.621Z"
             }
           ]
         },
@@ -4167,6 +4175,32 @@
               "verified_at": null
             }
           ]
+        },
+        {
+          "event_type": "conference_call",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "datetime",
+            "date_start": "2026-11-05",
+            "date_end": "2026-11-05",
+            "local_datetime": "2026-11-05T10:00:00",
+            "time_zone": "Asia/Seoul",
+            "utc_datetime": "2026-11-05T01:00:00.000Z",
+            "kst_datetime": "2026-11-05T01:00:00.000Z",
+            "date_basis": null
+          },
+          "updated_at": "2026-10-29T23:26:19.053Z",
+          "sources": [
+            {
+              "source_type": "kind",
+              "label": "KIND 공시",
+              "url": null,
+              "verification": "verified",
+              "checked_at": "2026-10-29T23:19:55.843Z",
+              "verified_at": "2026-10-29T23:19:55.843Z"
+            }
+          ]
         }
       ]
     },
@@ -5360,7 +5394,7 @@
             "kst_datetime": null,
             "date_basis": "kst"
           },
-          "updated_at": "2026-10-22T23:46:06.062Z",
+          "updated_at": "2026-10-29T23:26:19.053Z",
           "sources": [
             {
               "source_type": "broker_pdf",
@@ -5393,6 +5427,14 @@
               "verification": "verified",
               "checked_at": "2026-10-22T23:44:26.000Z",
               "verified_at": "2026-10-22T23:44:26.000Z"
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": null,
+              "verification": "verified",
+              "checked_at": "2026-10-29T23:21:27.260Z",
+              "verified_at": "2026-10-29T23:21:27.260Z"
             }
           ]
         },
@@ -6971,10 +7013,10 @@
       ]
     }
   ],
-  "data_sha256": "c8e70a41a3b4afd175940001970920502a358de0a236332e7f22b9d026ad7bf5",
+  "data_sha256": "720f38887fba8d2a0011cdf2ad1920ef3e00ed2b08be0a7612c667cfaf1ae1dd",
   "public_copy": {
-    "status": "succeeded",
-    "last_attempt_at": "2026-10-29T00:02:30.600Z",
+    "status": "publishing",
+    "last_attempt_at": "2026-10-29T23:27:16.252Z",
     "last_success_at": "2026-10-29T00:05:26.000Z",
     "last_verified_data_sha256": "c8e70a41a3b4afd175940001970920502a358de0a236332e7f22b9d026ad7bf5"
   }
