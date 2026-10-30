@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "source_read_at": "2026-10-29T23:27:20.609Z",
+  "source_read_at": "2026-10-30T23:14:15.885Z",
   "data_as_of": {
-    "latest_event_change_at": "2026-10-29T23:26:19.053Z",
-    "latest_evidence_check_at": "2026-10-29T23:21:27.260Z"
+    "latest_event_change_at": "2026-10-30T23:13:43.312Z",
+    "latest_evidence_check_at": "2026-10-30T23:08:13.918Z"
   },
   "original_source_refresh": {
     "status": "unverified",
@@ -17,7 +17,7 @@
   },
   "counts": {
     "companies": 159,
-    "events": 200
+    "events": 203
   },
   "companies": [
     {
@@ -4071,6 +4071,32 @@
               "verified_at": null
             }
           ]
+        },
+        {
+          "event_type": "conference_call",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "datetime",
+            "date_start": "2026-11-04",
+            "date_end": "2026-11-04",
+            "local_datetime": "2026-11-04T14:00:00",
+            "time_zone": "Asia/Seoul",
+            "utc_datetime": "2026-11-04T05:00:00.000Z",
+            "kst_datetime": "2026-11-04T05:00:00.000Z",
+            "date_basis": null
+          },
+          "updated_at": "2026-10-30T23:13:43.312Z",
+          "sources": [
+            {
+              "source_type": "kind",
+              "label": "KIND 공시",
+              "url": null,
+              "verification": "verified",
+              "checked_at": "2026-10-30T23:08:13.853Z",
+              "verified_at": "2026-10-30T23:08:13.853Z"
+            }
+          ]
         }
       ]
     },
@@ -4677,16 +4703,16 @@
           "lifecycle": "active",
           "status": "verified_confirmed",
           "schedule": {
-            "precision": "date",
+            "precision": "datetime",
             "date_start": "2026-11-06",
             "date_end": "2026-11-06",
-            "local_datetime": null,
-            "time_zone": null,
-            "utc_datetime": null,
-            "kst_datetime": null,
-            "date_basis": "kst"
+            "local_datetime": "2026-11-06T09:30:00",
+            "time_zone": "Asia/Seoul",
+            "utc_datetime": "2026-11-06T00:30:00.000Z",
+            "kst_datetime": "2026-11-06T00:30:00.000Z",
+            "date_basis": null
           },
-          "updated_at": "2026-10-16T06:23:23.786Z",
+          "updated_at": "2026-10-30T23:13:43.312Z",
           "sources": [
             {
               "source_type": "corporate_ir",
@@ -4695,6 +4721,14 @@
               "verification": "verified",
               "checked_at": "2026-10-16T05:48:00.000Z",
               "verified_at": "2026-10-16T05:48:00.000Z"
+            },
+            {
+              "source_type": "kind",
+              "label": "KIND 공시",
+              "url": null,
+              "verification": "verified",
+              "checked_at": "2026-10-30T23:08:13.766Z",
+              "verified_at": "2026-10-30T23:08:13.766Z"
             }
           ]
         }
@@ -4727,6 +4761,32 @@
               "verification": "pending",
               "checked_at": "2026-10-16T05:42:58.930Z",
               "verified_at": null
+            }
+          ]
+        },
+        {
+          "event_type": "conference_call",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "datetime",
+            "date_start": "2026-11-06",
+            "date_end": "2026-11-06",
+            "local_datetime": "2026-11-06T16:00:00",
+            "time_zone": "Asia/Seoul",
+            "utc_datetime": "2026-11-06T07:00:00.000Z",
+            "kst_datetime": "2026-11-06T07:00:00.000Z",
+            "date_basis": null
+          },
+          "updated_at": "2026-10-30T23:13:43.312Z",
+          "sources": [
+            {
+              "source_type": "kind",
+              "label": "KIND 공시",
+              "url": null,
+              "verification": "verified",
+              "checked_at": "2026-10-30T23:08:13.629Z",
+              "verified_at": "2026-10-30T23:08:13.629Z"
             }
           ]
         }
@@ -5541,6 +5601,32 @@
               "verification": "verified",
               "checked_at": "2026-10-20T00:21:10.407Z",
               "verified_at": "2026-10-20T00:21:10.407Z"
+            }
+          ]
+        },
+        {
+          "event_type": "conference_call",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "datetime",
+            "date_start": "2026-11-05",
+            "date_end": "2026-11-05",
+            "local_datetime": "2026-11-05T10:00:00",
+            "time_zone": "Asia/Seoul",
+            "utc_datetime": "2026-11-05T01:00:00.000Z",
+            "kst_datetime": "2026-11-05T01:00:00.000Z",
+            "date_basis": null
+          },
+          "updated_at": "2026-10-30T23:13:43.312Z",
+          "sources": [
+            {
+              "source_type": "kind",
+              "label": "KIND 공시",
+              "url": null,
+              "verification": "verified",
+              "checked_at": "2026-10-30T23:08:13.918Z",
+              "verified_at": "2026-10-30T23:08:13.918Z"
             }
           ]
         }
@@ -7013,10 +7099,10 @@
       ]
     }
   ],
-  "data_sha256": "720f38887fba8d2a0011cdf2ad1920ef3e00ed2b08be0a7612c667cfaf1ae1dd",
+  "data_sha256": "32c74662101a1953a099847c5edf1f0a5f9828f87997c7e0f4e7d71ffec727ff",
   "public_copy": {
-    "status": "succeeded",
-    "last_attempt_at": "2026-10-29T23:27:16.252Z",
+    "status": "publishing",
+    "last_attempt_at": "2026-10-30T23:14:14.542Z",
     "last_success_at": "2026-10-29T23:28:38.378Z",
     "last_verified_data_sha256": "720f38887fba8d2a0011cdf2ad1920ef3e00ed2b08be0a7612c667cfaf1ae1dd"
   }
