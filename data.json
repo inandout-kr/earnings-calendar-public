@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "source_read_at": "2026-10-30T23:14:15.885Z",
+  "source_read_at": "2026-10-31T23:31:59.049Z",
   "data_as_of": {
-    "latest_event_change_at": "2026-10-30T23:13:43.312Z",
-    "latest_evidence_check_at": "2026-10-30T23:08:13.918Z"
+    "latest_event_change_at": "2026-10-31T23:31:18.831Z",
+    "latest_evidence_check_at": "2026-10-31T23:29:42.374Z"
   },
   "original_source_refresh": {
     "status": "unverified",
@@ -17,7 +17,7 @@
   },
   "counts": {
     "companies": 159,
-    "events": 203
+    "events": 204
   },
   "companies": [
     {
@@ -3013,18 +3013,18 @@
         {
           "event_type": "earnings_release",
           "lifecycle": "active",
-          "status": "estimated",
+          "status": "verified_confirmed",
           "schedule": {
-            "precision": "week",
-            "date_start": "2026-11-01",
-            "date_end": "2026-11-07",
+            "precision": "date",
+            "date_start": "2026-11-05",
+            "date_end": "2026-11-05",
             "local_datetime": null,
             "time_zone": null,
             "utc_datetime": null,
             "kst_datetime": null,
             "date_basis": "source_printed"
           },
-          "updated_at": "2026-10-16T06:23:23.786Z",
+          "updated_at": "2026-10-31T23:31:18.831Z",
           "sources": [
             {
               "source_type": "broker_pdf",
@@ -3033,6 +3033,40 @@
               "verification": "pending",
               "checked_at": "2026-10-16T05:42:58.930Z",
               "verified_at": null
+            },
+            {
+              "source_type": "dart",
+              "label": "DART 공시",
+              "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800445",
+              "verification": "verified",
+              "checked_at": "2026-10-31T23:29:42.374Z",
+              "verified_at": "2026-10-31T23:29:42.374Z"
+            }
+          ]
+        },
+        {
+          "event_type": "conference_call",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "datetime",
+            "date_start": "2026-11-05",
+            "date_end": "2026-11-05",
+            "local_datetime": "2026-11-05T15:00:00",
+            "time_zone": "Asia/Seoul",
+            "utc_datetime": "2026-11-05T06:00:00.000Z",
+            "kst_datetime": "2026-11-05T06:00:00.000Z",
+            "date_basis": null
+          },
+          "updated_at": "2026-10-31T23:31:18.831Z",
+          "sources": [
+            {
+              "source_type": "dart",
+              "label": "DART 공시",
+              "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800445",
+              "verification": "verified",
+              "checked_at": "2026-10-31T23:29:42.374Z",
+              "verified_at": "2026-10-31T23:29:42.374Z"
             }
           ]
         }
@@ -7099,10 +7133,10 @@
       ]
     }
   ],
-  "data_sha256": "32c74662101a1953a099847c5edf1f0a5f9828f87997c7e0f4e7d71ffec727ff",
+  "data_sha256": "5ddffc95f707c526dd538a5b2e828440d415c6bd01c44f59d6eaa5afc1db645c",
   "public_copy": {
-    "status": "succeeded",
-    "last_attempt_at": "2026-10-30T23:14:14.542Z",
+    "status": "publishing",
+    "last_attempt_at": "2026-10-31T23:31:57.444Z",
     "last_success_at": "2026-10-30T23:15:13.743Z",
     "last_verified_data_sha256": "32c74662101a1953a099847c5edf1f0a5f9828f87997c7e0f4e7d71ffec727ff"
   }
