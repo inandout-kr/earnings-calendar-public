@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "source_read_at": "2026-10-31T23:31:59.049Z",
+  "source_read_at": "2026-11-05T23:34:16.757Z",
   "data_as_of": {
-    "latest_event_change_at": "2026-10-31T23:31:18.831Z",
-    "latest_evidence_check_at": "2026-10-31T23:29:42.374Z"
+    "latest_event_change_at": "2026-11-05T23:33:17.561Z",
+    "latest_evidence_check_at": "2026-11-05T23:30:44.870Z"
   },
   "original_source_refresh": {
     "status": "unverified",
@@ -17,7 +17,7 @@
   },
   "counts": {
     "companies": 159,
-    "events": 204
+    "events": 208
   },
   "companies": [
     {
@@ -2917,18 +2917,18 @@
         {
           "event_type": "earnings_release",
           "lifecycle": "active",
-          "status": "estimated",
+          "status": "verified_confirmed",
           "schedule": {
-            "precision": "week",
-            "date_start": "2026-11-01",
-            "date_end": "2026-11-07",
+            "precision": "date",
+            "date_start": "2026-10-30",
+            "date_end": "2026-10-30",
             "local_datetime": null,
             "time_zone": null,
             "utc_datetime": null,
             "kst_datetime": null,
-            "date_basis": "source_printed"
+            "date_basis": "kst"
           },
-          "updated_at": "2026-10-16T06:23:23.786Z",
+          "updated_at": "2026-11-05T23:33:17.561Z",
           "sources": [
             {
               "source_type": "broker_pdf",
@@ -2937,6 +2937,14 @@
               "verification": "pending",
               "checked_at": "2026-10-16T05:42:58.930Z",
               "verified_at": null
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": null,
+              "verification": "verified",
+              "checked_at": "2026-11-05T23:30:44.870Z",
+              "verified_at": "2026-11-05T23:30:44.870Z"
             }
           ]
         }
@@ -4833,18 +4841,18 @@
         {
           "event_type": "earnings_release",
           "lifecycle": "active",
-          "status": "estimated",
+          "status": "verified_confirmed",
           "schedule": {
-            "precision": "week",
-            "date_start": "2026-11-08",
-            "date_end": "2026-11-14",
+            "precision": "date",
+            "date_start": "2026-11-11",
+            "date_end": "2026-11-11",
             "local_datetime": null,
             "time_zone": null,
             "utc_datetime": null,
             "kst_datetime": null,
-            "date_basis": "source_printed"
+            "date_basis": "kst"
           },
-          "updated_at": "2026-10-16T06:23:23.786Z",
+          "updated_at": "2026-11-05T23:33:17.561Z",
           "sources": [
             {
               "source_type": "broker_pdf",
@@ -4853,6 +4861,40 @@
               "verification": "pending",
               "checked_at": "2026-10-16T05:42:58.930Z",
               "verified_at": null
+            },
+            {
+              "source_type": "dart",
+              "label": "DART 공시",
+              "url": null,
+              "verification": "verified",
+              "checked_at": "2026-11-05T23:29:03.576Z",
+              "verified_at": "2026-11-05T23:29:03.576Z"
+            }
+          ]
+        },
+        {
+          "event_type": "conference_call",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "datetime",
+            "date_start": "2026-11-11",
+            "date_end": "2026-11-11",
+            "local_datetime": "2026-11-11T16:00:00",
+            "time_zone": "Asia/Seoul",
+            "utc_datetime": "2026-11-11T07:00:00.000Z",
+            "kst_datetime": "2026-11-11T07:00:00.000Z",
+            "date_basis": null
+          },
+          "updated_at": "2026-11-05T23:33:17.561Z",
+          "sources": [
+            {
+              "source_type": "dart",
+              "label": "DART 공시",
+              "url": null,
+              "verification": "verified",
+              "checked_at": "2026-11-05T23:29:03.576Z",
+              "verified_at": "2026-11-05T23:29:03.576Z"
             }
           ]
         }
@@ -4961,18 +5003,18 @@
         {
           "event_type": "earnings_release",
           "lifecycle": "active",
-          "status": "reported_confirmed_pending",
+          "status": "verified_confirmed",
           "schedule": {
             "precision": "date",
-            "date_start": "2026-11-10",
-            "date_end": "2026-11-10",
+            "date_start": "2026-11-11",
+            "date_end": "2026-11-11",
             "local_datetime": null,
             "time_zone": null,
             "utc_datetime": null,
             "kst_datetime": null,
-            "date_basis": "source_printed"
+            "date_basis": "kst"
           },
-          "updated_at": "2026-10-16T06:23:23.786Z",
+          "updated_at": "2026-11-05T23:33:17.561Z",
           "sources": [
             {
               "source_type": "broker_pdf",
@@ -4981,6 +5023,40 @@
               "verification": "pending",
               "checked_at": "2026-10-16T05:42:58.930Z",
               "verified_at": null
+            },
+            {
+              "source_type": "dart",
+              "label": "DART 공시",
+              "url": null,
+              "verification": "verified",
+              "checked_at": "2026-11-05T23:28:35.525Z",
+              "verified_at": "2026-11-05T23:28:35.525Z"
+            }
+          ]
+        },
+        {
+          "event_type": "conference_call",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "datetime",
+            "date_start": "2026-11-11",
+            "date_end": "2026-11-11",
+            "local_datetime": "2026-11-11T10:30:00",
+            "time_zone": "Asia/Seoul",
+            "utc_datetime": "2026-11-11T01:30:00.000Z",
+            "kst_datetime": "2026-11-11T01:30:00.000Z",
+            "date_basis": null
+          },
+          "updated_at": "2026-11-05T23:33:17.561Z",
+          "sources": [
+            {
+              "source_type": "dart",
+              "label": "DART 공시",
+              "url": null,
+              "verification": "verified",
+              "checked_at": "2026-11-05T23:28:35.525Z",
+              "verified_at": "2026-11-05T23:28:35.525Z"
             }
           ]
         }
@@ -5045,6 +5121,32 @@
               "verification": "pending",
               "checked_at": "2026-10-16T05:42:58.930Z",
               "verified_at": null
+            }
+          ]
+        },
+        {
+          "event_type": "conference_call",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "datetime",
+            "date_start": "2026-11-11",
+            "date_end": "2026-11-11",
+            "local_datetime": "2026-11-11T16:00:00",
+            "time_zone": "Asia/Seoul",
+            "utc_datetime": "2026-11-11T07:00:00.000Z",
+            "kst_datetime": "2026-11-11T07:00:00.000Z",
+            "date_basis": null
+          },
+          "updated_at": "2026-11-05T23:33:17.561Z",
+          "sources": [
+            {
+              "source_type": "kind",
+              "label": "KIND 공시",
+              "url": null,
+              "verification": "verified",
+              "checked_at": "2026-11-05T23:28:07.469Z",
+              "verified_at": "2026-11-05T23:28:07.469Z"
             }
           ]
         }
@@ -6153,18 +6255,18 @@
         {
           "event_type": "earnings_release",
           "lifecycle": "active",
-          "status": "unscheduled",
+          "status": "estimated",
           "schedule": {
-            "precision": "unknown",
-            "date_start": null,
-            "date_end": null,
+            "precision": "date",
+            "date_start": "2026-11-13",
+            "date_end": "2026-11-13",
             "local_datetime": null,
             "time_zone": null,
             "utc_datetime": null,
             "kst_datetime": null,
-            "date_basis": null
+            "date_basis": "source_printed"
           },
-          "updated_at": "2026-10-16T06:23:23.786Z",
+          "updated_at": "2026-11-04T23:42:07.171Z",
           "sources": [
             {
               "source_type": "broker_pdf",
@@ -6173,6 +6275,14 @@
               "verification": "pending",
               "checked_at": "2026-10-16T05:42:58.930Z",
               "verified_at": null
+            },
+            {
+              "source_type": "corporate_ir",
+              "label": "기업 공식 IR",
+              "url": null,
+              "verification": "verified",
+              "checked_at": "2026-11-04T23:19:09.472Z",
+              "verified_at": "2026-11-04T23:37:59.488Z"
             }
           ]
         }
@@ -6746,7 +6856,34 @@
     {
       "name": "삼성생명",
       "ticker": "032830",
-      "events": []
+      "events": [
+        {
+          "event_type": "conference_call",
+          "lifecycle": "active",
+          "status": "verified_confirmed",
+          "schedule": {
+            "precision": "datetime",
+            "date_start": "2026-11-12",
+            "date_end": "2026-11-12",
+            "local_datetime": "2026-11-12T14:00:00",
+            "time_zone": "Asia/Seoul",
+            "utc_datetime": "2026-11-12T05:00:00.000Z",
+            "kst_datetime": "2026-11-12T05:00:00.000Z",
+            "date_basis": null
+          },
+          "updated_at": "2026-11-05T23:33:17.561Z",
+          "sources": [
+            {
+              "source_type": "dart",
+              "label": "DART 공시",
+              "url": null,
+              "verification": "verified",
+              "checked_at": "2026-11-05T23:28:35.432Z",
+              "verified_at": "2026-11-05T23:28:35.432Z"
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "신한지주",
@@ -7133,10 +7270,10 @@
       ]
     }
   ],
-  "data_sha256": "5ddffc95f707c526dd538a5b2e828440d415c6bd01c44f59d6eaa5afc1db645c",
+  "data_sha256": "fd460c757009ffc08b4b2ba5ff6642c09ae96e4aaed2da19dc10b00284e84a95",
   "public_copy": {
-    "status": "succeeded",
-    "last_attempt_at": "2026-10-31T23:31:57.444Z",
+    "status": "publishing",
+    "last_attempt_at": "2026-11-05T23:34:09.588Z",
     "last_success_at": "2026-10-31T23:33:02.050Z",
     "last_verified_data_sha256": "5ddffc95f707c526dd538a5b2e828440d415c6bd01c44f59d6eaa5afc1db645c"
   }
