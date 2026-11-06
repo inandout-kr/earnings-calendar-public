@@ -7502,9 +7502,9 @@
   ],
   "data_sha256": "ce38a8d27e49699cee06d040fe9ed390847c280b268f3f98971f2c094a2f8e5d",
   "public_copy": {
-    "status": "publishing",
+    "status": "succeeded",
     "last_attempt_at": "2026-11-06T23:49:01.488Z",
-    "last_success_at": "2026-11-05T23:35:53.338Z",
-    "last_verified_data_sha256": "fd460c757009ffc08b4b2ba5ff6642c09ae96e4aaed2da19dc10b00284e84a95"
+    "last_success_at": "2026-11-06T23:50:51.196Z",
+    "last_verified_data_sha256": "ce38a8d27e49699cee06d040fe9ed390847c280b268f3f98971f2c094a2f8e5d"
   }
 }
